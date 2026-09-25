@@ -48,6 +48,8 @@ html { scroll-behavior: smooth; }
         .skip-link:focus { left: 0; }
         /* Active nav */
         .nav-link.active { color: #C5A059; }
+        /* Lucide icons — skala mengikuti font-size elemen */
+        svg.lucide { width: 1em; height: 1em; flex-shrink: 0; vertical-align: -.125em; }
         /* Dummy badge */
         .dummy-badge { font-size: 9px; letter-spacing: .12em; }
         /* Testimoni track */
