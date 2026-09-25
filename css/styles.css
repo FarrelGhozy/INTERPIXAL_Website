@@ -1,0 +1,54 @@
+/* INTERPIXAL — Integrated 698 Plat G (Dummy Preview)
+   Custom styles di luar Tailwind. File pecahan dari index.html */
+html { scroll-behavior: smooth; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #FAF7F2; }
+        ::-webkit-scrollbar-thumb { background: #C5A059; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #2A1A10; }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #B38838 0%, #E8CB8B 50%, #9E7429 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #C5A059 0%, #E8CB8B 50%, #B38838 100%);
+        }
+        .dark-choco-gradient {
+            background: linear-gradient(180deg, #2A1A10 0%, #1A0F09 100%);
+        }
+        .pattern-cream-grid {
+            background-color: #FAF7F2;
+            background-image: radial-gradient(#C5A059 0.6px, transparent 0.6px);
+            background-size: 24px 24px;
+        }
+        .pattern-dark-grid {
+            background-color: #2A1A10;
+            background-image: radial-gradient(rgba(197, 160, 89, 0.2) 0.8px, transparent 0.8px);
+            background-size: 28px 28px;
+        }
+        .gold-border-glow {
+            border: 1px solid rgba(197, 160, 89, 0.4);
+            transition: all 0.3s ease;
+        }
+        .gold-border-glow:hover {
+            border-color: rgba(197, 160, 89, 1);
+            box-shadow: 0 10px 30px -5px rgba(197, 160, 89, 0.25);
+        }
+        /* Reveal on scroll */
+        .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
+        .reveal.revealed { opacity: 1; transform: none; }
+        @media (prefers-reduced-motion: reduce) {
+            .reveal { opacity: 1; transform: none; transition: none; }
+            html { scroll-behavior: auto; }
+        }
+        /* Skip link */
+        .skip-link { position: absolute; left: -9999px; top: 0; background: #2A1A10; color: #E8CB8B; padding: 10px 16px; z-index: 100; border-radius: 0 0 8px 0; font-size: 13px; font-weight: 700; }
+        .skip-link:focus { left: 0; }
+        /* Active nav */
+        .nav-link.active { color: #C5A059; }
+        /* Dummy badge */
+        .dummy-badge { font-size: 9px; letter-spacing: .12em; }
+        /* Testimoni track */
+        #testi-track { transition: transform .5s ease; }

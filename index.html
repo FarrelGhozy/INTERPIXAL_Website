@@ -4,185 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrated Generation 2024 — Konsulat Pekalongan Gontor (Plat G)</title>
-    
-    <!-- Tailwind CSS CDN -->
+    <meta name="description" content="Profil dummy Integrated Generation 2024 Konsulat Pekalongan (Plat G) — Eks-Karesidenan Pekalongan: Pekalongan, Batang, Pemalang, Tegal, Brebes. Gambaran struktur, agenda, galeri, dan kontak alumni.">
+    <meta name="keywords" content="Gontor 2024, Integrated Generation 698, Konsulat Pekalongan, Plat G, Alumni Gontor, Pekalongan Batang Pemalang Tegal Brebes">
+    <meta name="author" content="Integrated Generation 698 Plat G (Dummy Preview)">
+    <meta name="theme-color" content="#2A1A10">
+    <link rel="canonical" href="https://example.com/integrated-698-plat-g/">
+
+    <!-- Open Graph / Share (dummy URL) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:title" content="Integrated Generation 2024 — Konsulat Pekalongan (Plat G)">
+    <meta property="og:description" content="Gambaran profil dummy: 154 alumni, 6 wilayah Plat G, dual logo, agenda, galeri, dan kontak.">
+    <meta property="og:image" content="assets/images/og-cover.png">
+    <meta property="og:url" content="https://example.com/integrated-698-plat-g/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Integrated 698 — Konsulat Pekalongan (Dummy)">
+    <meta name="twitter:description" content="Preview dummy profil angkatan 2024 Plat G.">
+    <meta name="twitter:image" content="assets/images/og-cover.png">
+
+    <!-- Favicon inline SVG 698 -->
+    <link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232A1A10'/%3E%3Ctext x='32' y='40' font-family='serif' font-weight='900' font-size='20' fill='%23C5A059' text-anchor='middle'%3E698%3C/text%3E%3C/svg%3E">
+
+    <!-- Tailwind CSS CDN (prototype - ganti build statis saat produksi) -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts: Cinzel, Playfair Display & Plus Jakarta Sans -->
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400;1,600&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome Pro Icons -->
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'cream-bg': '#FAF7F2',        // Warm Royal Ivory Base (55-60%)
-                        'cream-surface': '#FFFFFF',   // Pure Card White
-                        'cream-soft': '#F3ECE3',      // Subtle Card Accent
-                        'choco-dark': '#2A1A10',      // Deep Espresso Dark Chocolate (25%)
-                        'choco-medium': '#4A3324',    // Medium Warm Chocolate
-                        'gold-imperial': '#C5A059',   // Imperial Metallic Gold (10%)
-                        'gold-light': '#E8CB8B',      // Soft Gold Highlight
-                        'red-maroon': '#7A1C1E',      // Deep Royal Crimson Maroon (5%)
-                        'sand-light': '#E5D9CC'       // Fine Border Sand Tone
-                    },
-                    fontFamily: {
-                        'cinzel': ['Cinzel', 'serif'],
-                        'playfair': ['Playfair Display', 'serif'],
-                        'sans': ['Plus Jakarta Sans', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'royal': '0 20px 40px -15px rgba(42, 26, 16, 0.07)',
-                        'gold-glow': '0 10px 30px -5px rgba(197, 160, 89, 0.3)',
-                        'deep-card': '0 25px 50px -12px rgba(42, 26, 16, 0.18)',
-                    }
-                }
-            }
-        }
+    <script src="js/tailwind-config.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Integrated Generation 2024 - Konsulat Pekalongan (Plat G) [DUMMY]",
+      "description": "Preview dummy profil alumni KMI 2024 Eks-Karesidenan Pekalongan.",
+      "memberOf": { "@type": "Organization", "name": "Pondok Modern Darussalam Gontor" },
+      "areaServed": ["Pekalongan","Batang","Pemalang","Tegal","Brebes"],
+      "sameAs": ["https://instagram.com/integrated698.pkl_dummy"]
+    }
     </script>
-
-    <style>
-        html { scroll-behavior: smooth; }
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #FAF7F2; }
-        ::-webkit-scrollbar-thumb { background: #C5A059; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #2A1A10; }
-
-        .gold-gradient-text {
-            background: linear-gradient(135deg, #B38838 0%, #E8CB8B 50%, #9E7429 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .gold-gradient-bg {
-            background: linear-gradient(135deg, #C5A059 0%, #E8CB8B 50%, #B38838 100%);
-        }
-
-        .dark-choco-gradient {
-            background: linear-gradient(180deg, #2A1A10 0%, #1A0F09 100%);
-        }
-
-        .pattern-cream-grid {
-            background-color: #FAF7F2;
-            background-image: radial-gradient(#C5A059 0.6px, transparent 0.6px);
-            background-size: 24px 24px;
-        }
-
-        .pattern-dark-grid {
-            background-color: #2A1A10;
-            background-image: radial-gradient(rgba(197, 160, 89, 0.2) 0.8px, transparent 0.8px);
-            background-size: 28px 28px;
-        }
-
-        .gold-border-glow {
-            border: 1px solid rgba(197, 160, 89, 0.4);
-            transition: all 0.3s ease;
-        }
-        .gold-border-glow:hover {
-            border-color: rgba(197, 160, 89, 1);
-            box-shadow: 0 10px 30px -5px rgba(197, 160, 89, 0.25);
-        }
-    </style>
 </head>
 
 <body class="bg-cream-bg text-choco-dark font-sans antialiased selection:bg-gold-imperial selection:text-white pattern-cream-grid min-h-screen">
 
-    <header class="sticky top-0 z-50 bg-cream-surface/90 backdrop-blur-md border-b border-sand-light shadow-sm transition-all duration-300" id="navbar">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <a href="#main" class="skip-link">Lewati ke konten utama</a>
+    <p class="bg-choco-dark text-gold-light text-center text-[11px] font-bold tracking-widest uppercase py-2 px-4">Mode Preview Dummy — Semua data, foto, nama & kontak hanya contoh</p>
+
+    <header class="sticky top-0 z-50 bg-cream-surface/90 backdrop-blur-md border-b border-sand-light shadow-sm" id="navbar">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Navigasi utama">
             <div class="flex items-center justify-between h-16">
-                
-                <!-- Clean Brand Logo -->
-                <a href="#hero" class="flex items-center gap-2.5 group">
-                    <div class="w-9 h-9 rounded-lg bg-choco-dark border border-gold-imperial flex items-center justify-center font-cinzel font-black text-gold-imperial text-sm shadow-sm group-hover:bg-choco-medium transition-colors">
-                        698
-                    </div>
+                <a href="#hero" class="flex items-center gap-2.5 group" aria-label="Interpixal - Beranda">
+                    <img src="assets/logos/logo-interpixal-circle.png" alt="Logo Interpixal" width="36" height="36" loading="eager" decoding="async" class="w-9 h-9 rounded-lg border border-gold-imperial shadow-sm bg-choco-dark object-cover group-hover:brightness-110 transition">
                     <div class="flex items-center gap-2">
                         <span class="font-cinzel font-extrabold text-base tracking-wide text-choco-dark group-hover:text-gold-imperial transition-colors">
-                            INTEGRATED
+                            INTERPIXAL
                         </span>
-                        <span class="text-[10px] bg-choco-dark text-gold-imperial px-2 py-0.5 rounded font-mono font-bold tracking-wider">PLAT G</span>
+                        <span class="text-[10px] bg-choco-dark text-gold-imperial px-2 py-0.5 rounded font-mono font-bold tracking-wider">PLAT G • DUMMY</span>
                     </div>
                 </a>
 
-                <!-- Desktop Nav Items -->
-                <div class="hidden md:flex items-center space-x-7 text-xs font-bold uppercase tracking-wider">
-                    <a href="#hero" class="text-choco-dark hover:text-gold-imperial transition-colors">Beranda</a>
-                    <a href="#dual-logo" class="text-choco-dark hover:text-gold-imperial transition-colors">Dual Logo</a>
-                    <a href="#sebaran" class="text-choco-dark hover:text-gold-imperial transition-colors">Wilayah Plat G</a>
-                    <a href="#galeri" class="text-choco-dark hover:text-gold-imperial transition-colors">Galeri Memori</a>
-                    <a href="#kontak" class="text-gold-imperial bg-choco-dark px-3.5 py-1.5 rounded-md hover:bg-choco-medium transition-all shadow-sm">Media Resmi</a>
+                <div class="hidden lg:flex items-center space-x-6 text-[11px] font-bold uppercase tracking-wider">
+                    <a href="#hero" data-nav="hero" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Beranda</a>
+                    <a href="#tentang" data-nav="tentang" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Tentang</a>
+                    <a href="#dual-logo" data-nav="dual-logo" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Dual Logo</a>
+                    <a href="#sebaran" data-nav="sebaran" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Wilayah</a>
+                    <a href="#agenda" data-nav="agenda" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Agenda</a>
+                    <a href="#galeri" data-nav="galeri" class="nav-link text-choco-dark hover:text-gold-imperial transition-colors">Galeri</a>
+                    <a href="#kontak" class="text-gold-imperial bg-choco-dark px-3.5 py-1.5 rounded-md hover:bg-choco-medium transition-all shadow-sm">Gabung</a>
                 </div>
 
-                <!-- Mobile Navigation Toggle Button -->
-                <button id="mobile-toggle" class="md:hidden text-choco-dark text-xl p-2 focus:outline-none" aria-label="Toggle Mobile Navigation">
-                    <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+                <button id="mobile-toggle" class="lg:hidden text-choco-dark text-xl p-2 focus:outline-none focus:ring-2 focus:ring-gold-imperial rounded" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-drawer">
+                    <i class="fa-solid fa-bars-staggered" id="menu-icon" aria-hidden="true"></i>
                 </button>
             </div>
         </nav>
 
-        <!-- Mobile Drawer Menu -->
-        <div id="mobile-drawer" class="hidden md:hidden bg-cream-surface border-b border-sand-light px-6 py-4 space-y-2 shadow-lg">
+        <div id="mobile-drawer" class="hidden lg:hidden bg-cream-surface border-b border-sand-light px-6 py-4 space-y-2 shadow-lg">
             <a href="#hero" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Beranda</a>
+            <a href="#tentang" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Tentang</a>
             <a href="#dual-logo" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Dual Logo</a>
+            <a href="#filosofi" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Filosofi</a>
             <a href="#sebaran" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Wilayah Plat G</a>
+            <a href="#agenda" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Agenda</a>
             <a href="#galeri" class="mobile-link block text-xs font-bold tracking-wider text-choco-dark uppercase hover:text-gold-imperial py-1.5">Galeri Memori</a>
             <a href="#kontak" class="mobile-link block w-full text-center bg-choco-dark text-gold-imperial py-2 rounded-lg text-xs font-bold uppercase tracking-wider mt-2">
-                Media Resmi
+                Gabung / Media Resmi
             </a>
         </div>
     </header>
 
-    <section id="hero" class="relative py-16 lg:py-24 overflow-hidden dark-choco-gradient pattern-dark-grid text-cream-bg">
-        <div class="absolute top-0 right-1/4 w-96 h-96 bg-gold-imperial/10 rounded-full blur-[120px] pointer-events-none"></div>
-        <div class="absolute bottom-0 left-10 w-80 h-80 bg-red-maroon/20 rounded-full blur-[100px] pointer-events-none"></div>
+<main id="main">
+    <!-- HERO -->
+    <section id="hero" class="relative py-16 lg:py-24 overflow-hidden dark-choco-gradient pattern-dark-grid text-cream-bg scroll-mt-20">
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-gold-imperial/10 rounded-full blur-[120px] pointer-events-none" aria-hidden="true"></div>
+        <div class="absolute bottom-0 left-10 w-80 h-80 bg-red-maroon/20 rounded-full blur-[100px] pointer-events-none" aria-hidden="true"></div>
 
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                
-                <!-- Left Hero Text -->
+
                 <div class="lg:col-span-7 text-center lg:text-left">
                     <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cream-surface/10 border border-gold-imperial/30 text-gold-light text-xs font-semibold uppercase tracking-widest mb-6">
-                        <i class="fa-solid fa-award text-gold-imperial"></i>
-                        <span>MARHALAH ALUMNI GONTOR 2024 • 698</span>
+                        <i class="fa-solid fa-award text-gold-imperial" aria-hidden="true"></i>
+                        <span>MARHALAH ALUMNI GONTOR 2024 • 698 • DUMMY PREVIEW</span>
                     </div>
 
                     <h1 class="font-cinzel text-3xl sm:text-5xl lg:text-5xl font-bold leading-tight text-white mb-6">
-                        INTEGRATED GENERATION <br/>
-                        <span class="gold-gradient-text font-black">KONSULAT PEKALONGAN</span> <br/>
+                        INTEGRATED GENERATION <br>
+                        <span class="gold-gradient-text font-black">KONSULAT PEKALONGAN</span> <br>
                         <span class="text-xl sm:text-2xl font-playfair italic font-normal text-cream-soft/90">The Centennial Hijri of Gontor • Plat G Pride</span>
                     </h1>
 
-                    <p class="text-cream-soft/80 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0 font-normal">
-                        Showcase profil resmi alumni KMI 2024 <strong>Integrated Generation (Marhalah 698)</strong> asal Eks-Karesidenan Pekalongan (Pekalongan, Batang, Pemalang, Tegal, Brebes). Mengukuhkan jaringan silaturahmi, kiprah peradaban, dan kehormatan almamater.
+                    <p class="text-cream-soft/80 text-sm sm:text-base leading-relaxed mb-4 max-w-2xl mx-auto lg:mx-0 font-normal">
+                        Showcase profil resmi alumni KMI 2024 <strong>Integrated Generation (Marhalah 698)</strong> asal Eks-Karesidenan Pekalongan (Pekalongan, Batang, Pemalang, Tegal, Brebes). <span class="text-gold-light">[Teks dummy — ganti dengan sambutan resmi saat data real masuk]</span>
                     </p>
+                    <p class="text-[11px] text-cream-soft/60 mb-8 max-w-2xl mx-auto lg:mx-0">Contoh struktur: sambutan ketua, visi misi, dan tombol ajakan gabung. Semua kontak di bawah hanya contoh.</p>
 
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
-                        <a href="#dual-logo" class="w-full sm:w-auto px-8 py-3.5 rounded-lg gold-gradient-bg text-choco-dark font-bold text-xs tracking-wider uppercase shadow-gold-glow hover:brightness-110 transition-all flex items-center justify-center gap-2.5">
-                            <span>Jelajahi Dual Logo</span>
-                            <i class="fa-solid fa-compass"></i>
+                        <a href="#tentang" class="w-full sm:w-auto px-8 py-3.5 rounded-lg gold-gradient-bg text-choco-dark font-bold text-xs tracking-wider uppercase shadow-gold-glow hover:brightness-110 transition-all flex items-center justify-center gap-2.5">
+                            <span>Kenal Lebih Dekat</span>
+                            <i class="fa-solid fa-compass" aria-hidden="true"></i>
                         </a>
                         <a href="#sebaran" class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-cream-surface/10 hover:bg-cream-surface/20 text-cream-bg font-bold text-xs tracking-wider uppercase border border-gold-imperial/40 transition-all flex items-center justify-center gap-2.5">
                             <span>Direktori Wilayah</span>
-                            <i class="fa-solid fa-map-location-dot"></i>
+                            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+                        </a>
+                        <a href="#kontak" class="w-full sm:w-auto px-8 py-3.5 rounded-lg border border-dashed border-gold-light/50 text-gold-light font-bold text-xs tracking-wider uppercase hover:bg-cream-surface/10 transition-all flex items-center justify-center gap-2.5">
+                            <span>Gabung Grup WA (Dummy)</span>
+                            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                         </a>
                     </div>
 
-                    <!-- Counter Bar -->
-                    <div class="grid grid-cols-3 gap-4 pt-8 border-t border-gold-imperial/20">
-                        <div>
-                            <div class="font-cinzel font-extrabold text-2xl text-gold-imperial">698</div>
+                    <!-- Counter Bar (dummy konsisten: 35+22+28+32+25+12=154) -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-gold-imperial/20" role="list" aria-label="Statistik dummy">
+                        <div role="listitem">
+                            <div class="font-cinzel font-extrabold text-2xl text-gold-imperial"><span data-count="698">0</span></div>
                             <div class="text-[11px] text-cream-soft/70 uppercase font-semibold">Kode Marhalah</div>
                         </div>
-                        <div>
-                            <div class="font-cinzel font-extrabold text-2xl text-gold-imperial">140+</div>
-                            <div class="text-[11px] text-cream-soft/70 uppercase font-semibold">Alumni Plat G 2024</div>
+                        <div role="listitem">
+                            <div class="font-cinzel font-extrabold text-2xl text-gold-imperial"><span data-count="154">0</span>+</div>
+                            <div class="text-[11px] text-cream-soft/70 uppercase font-semibold">Alumni Plat G (Dummy)</div>
                         </div>
-                        <div>
+                        <div role="listitem">
+                            <div class="font-cinzel font-extrabold text-2xl text-gold-imperial"><span data-count="6">0</span></div>
+                            <div class="text-[11px] text-cream-soft/70 uppercase font-semibold">Wilayah (5+Perantauan)</div>
+                        </div>
+                        <div role="listitem">
                             <div class="font-cinzel font-extrabold text-2xl text-gold-imperial">100 Thn</div>
                             <div class="text-[11px] text-cream-soft/70 uppercase font-semibold">Hijriyah Gontor</div>
                         </div>
@@ -192,37 +167,34 @@
                 <!-- Right Dual Logo Preview Banner -->
                 <div class="lg:col-span-5">
                     <div class="relative max-w-md mx-auto">
-                        <div class="absolute -inset-1 bg-gold-gradient-bg rounded-2xl blur opacity-30"></div>
+                        <div class="absolute -inset-1 bg-gold-gradient-bg rounded-2xl blur opacity-30" aria-hidden="true"></div>
                         <div class="relative bg-choco-dark rounded-2xl border border-gold-imperial/40 p-7 shadow-deep-card">
-                            
+
                             <div class="text-center border-b border-gold-imperial/20 pb-4 mb-6">
-                                <div class="font-cinzel font-bold text-sm text-gold-light uppercase tracking-widest">DUAL LOGO EMBLEM</div>
-                                <div class="text-[11px] text-cream-soft/70">Simbol Resmi Angkatan 2024 & Konsulat Plat G</div>
+                                <div class="font-cinzel font-bold text-sm text-gold-light uppercase tracking-widest">DUAL LOGO EMBLEM <span class="dummy-badge bg-gold-imperial/20 px-2 py-0.5 rounded ml-1">DUMMY IMG</span></div>
+                                <div class="text-[11px] text-cream-soft/70">Ganti dengan file <code>assets/logo-general.png</code> & <code>logo-konsulat.png</code> nanti</div>
                             </div>
 
-                            <!-- Dual Logo Showcase Images -->
                             <div class="grid grid-cols-2 gap-4 mb-6">
-                                <!-- General Logo Box -->
-                                <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/30 text-center flex flex-col items-center justify-center group hover:bg-cream-surface/10 transition-colors cursor-pointer" onclick="openLogoDetail('general')">
-                                    <div class="w-16 h-16 rounded-full bg-choco-medium/80 border border-gold-imperial flex items-center justify-center text-gold-imperial mb-3 shadow-md group-hover:scale-110 transition-transform">
+                                <button type="button" data-logo-detail="general" class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/30 text-center flex flex-col items-center justify-center group hover:bg-cream-surface/10 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold-imperial" aria-haspopup="dialog">
+                                    <span class="w-16 h-16 rounded-full bg-choco-medium/80 border border-gold-imperial flex items-center justify-center text-gold-imperial mb-3 shadow-md group-hover:scale-110 transition-transform" aria-hidden="true">
                                         <i class="fa-solid fa-earth-asia text-2xl"></i>
-                                    </div>
-                                    <div class="font-cinzel font-bold text-xs text-white">Logo General 2024</div>
-                                    <div class="text-[10px] text-gold-light mt-0.5">Integrated Generation</div>
-                                </div>
+                                    </span>
+                                    <span class="font-cinzel font-bold text-xs text-white">Logo General 2024</span>
+                                    <span class="text-[10px] text-gold-light mt-0.5">Integrated Generation</span>
+                                </button>
 
-                                <!-- Konsulat Logo Box -->
-                                <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/30 text-center flex flex-col items-center justify-center group hover:bg-cream-surface/10 transition-colors cursor-pointer" onclick="openLogoDetail('konsulat')">
-                                    <div class="w-16 h-16 rounded-full bg-red-maroon/80 border border-gold-light flex items-center justify-center text-gold-light mb-3 shadow-md group-hover:scale-110 transition-transform">
-                                        <i class="fa-solid fa-shield-cat text-2xl"></i>
-                                    </div>
-                                    <div class="font-cinzel font-bold text-xs text-white">Logo Konsulat PKL</div>
-                                    <div class="text-[10px] text-gold-light mt-0.5">Identitas Plat G</div>
-                                </div>
+                                <button type="button" data-logo-detail="konsulat" class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/30 text-center flex flex-col items-center justify-center group hover:bg-cream-surface/10 transition-colors cursor-pointer focus:outline-none focus:ring-2 focus:ring-gold-imperial" aria-haspopup="dialog">
+                                    <span class="w-16 h-16 rounded-full bg-red-maroon/80 border border-gold-light flex items-center justify-center text-gold-light mb-3 shadow-md group-hover:scale-110 transition-transform" aria-hidden="true">
+                                        <i class="fa-solid fa-shield-halved text-2xl"></i>
+                                    </span>
+                                    <span class="font-cinzel font-bold text-xs text-white">Logo Konsulat PKL</span>
+                                    <span class="text-[10px] text-gold-light mt-0.5">Identitas Plat G</span>
+                                </button>
                             </div>
 
                             <div class="text-center">
-                                <span class="text-[11px] text-cream-soft/80 italic">Klik kartu logo di atas untuk melihat rincian makna filosofis logo secara mendalam.</span>
+                                <span class="text-[11px] text-cream-soft/80 italic">Klik kartu logo untuk melihat rincian makna filosofis (dummy).</span>
                             </div>
 
                         </div>
@@ -233,32 +205,69 @@
         </div>
     </section>
 
-    <section id="dual-logo" class="py-20 relative bg-cream-surface border-b border-sand-light">
+    <!-- TENTANG / SAMBUTAN (BARU) -->
+    <section id="tentang" class="py-20 bg-cream-surface border-b border-sand-light scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+                <div class="lg:col-span-5 reveal">
+                    <div class="bg-cream-bg rounded-2xl border border-sand-light p-6 shadow-royal text-center">
+                        <img src="assets/images/ketua/ketua-dummy.png" alt="Foto dummy Ketua Konsulat Pekalongan 2024" width="500" height="500" loading="lazy" decoding="async" class="w-48 h-48 mx-auto rounded-full object-cover border-4 border-gold-imperial shadow-lg mb-4">
+                        <h3 class="font-cinzel font-bold text-xl text-choco-dark">Ust. Dummy Ketua Konsulat</h3>
+                        <p class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Ketua Konsulat Pekalongan 2024 (Contoh)</p>
+                        <p class="text-choco-medium text-xs leading-relaxed italic border-t border-sand-light pt-4">“Dummy quote: Tetap bersatu dalam ukhuwah, menebar manfaat untuk peradaban. — Akan diganti quote asli.”</p>
+                        <div class="flex justify-center gap-2 mt-4">
+                            <span class="px-3 py-1 rounded-full bg-choco-dark text-gold-imperial text-[10px] font-bold">PEKALONGAN</span>
+                            <span class="px-3 py-1 rounded-full bg-cream-soft text-choco-dark text-[10px] font-bold">MARHALAH 698</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-7 reveal">
+                    <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
+                        <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                        TENTANG KAMI (DUMMY)
+                    </div>
+                    <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark mb-4">Siapa Integrated 698 Plat G?</h2>
+                    <p class="text-choco-medium text-sm leading-relaxed mb-4">Paragraf dummy 1: Konsulat Pekalongan menghimpun alumni KMI 2024 asal Eks-Karesidenan Pekalongan. Contoh kalimat profil yang nanti diganti sejarah asli konsulat, jumlah pesantren, dan kiprah alumni.</p>
+                    <p class="text-choco-medium text-sm leading-relaxed mb-6">Paragraf dummy 2: Visi dummy — menjadi simpul ukhuwah dan pengabdian. Misi dummy — (1) silaturahmi rutin, (2) database alumni, (3) pengabdian masyarakat. Semua teks ini placeholder.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                        <div class="bg-cream-bg border border-sand-light rounded-xl p-4 text-center"><div class="font-cinzel font-extrabold text-xl text-choco-dark">2018</div><div class="text-[11px] uppercase font-bold text-choco-medium">Masuk Gontor (Dummy)</div></div>
+                        <div class="bg-cream-bg border border-sand-light rounded-xl p-4 text-center"><div class="font-cinzel font-extrabold text-xl text-choco-dark">2024</div><div class="text-[11px] uppercase font-bold text-choco-medium">Lulus KMI (Dummy)</div></div>
+                        <div class="bg-cream-bg border border-sand-light rounded-xl p-4 text-center"><div class="font-cinzel font-extrabold text-xl text-choco-dark">2026</div><div class="text-[11px] uppercase font-bold text-choco-medium">Reuni Akbar (Rencana)</div></div>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="#sebaran" class="px-6 py-3 rounded-lg bg-choco-dark text-gold-imperial text-xs font-bold uppercase tracking-wider hover:bg-choco-medium transition-colors">Lihat Struktur Dummy</a>
+                        <a href="#agenda" class="px-6 py-3 rounded-lg border border-sand-light bg-cream-bg text-choco-dark text-xs font-bold uppercase tracking-wider hover:bg-cream-soft transition-colors">Lihat Agenda Dummy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DUAL LOGO -->
+    <section id="dual-logo" class="py-20 relative bg-cream-surface border-b border-sand-light scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
                 <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                     IDENTITAS VISUAL ANGKATAN
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                 </div>
                 <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark mb-4">
                     Eksplorasi Dual Logo 2024
                 </h2>
                 <p class="text-choco-medium text-sm sm:text-base leading-relaxed">
-                    Perpaduan dua identitas logo resmi: Logo General Marhalah 2024 tingkat pusat dan Logo Konsulat Pekalongan (Plat G) yang sarat akan makna filosofis.
+                    Perpaduan dua identitas logo resmi (dummy visual): Logo General Marhalah 2024 tingkat pusat dan Logo Konsulat Pekalongan (Plat G).
                 </p>
             </div>
 
-            <!-- Dual Logo Side by Side Comparison Grid -->
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                
-                <!-- Logo 1: General Integrated Generation 2024 -->
-                <div class="bg-cream-bg rounded-2xl p-8 border border-sand-light gold-border-glow shadow-royal flex flex-col justify-between">
+
+                <div class="bg-cream-bg rounded-2xl p-8 border border-sand-light gold-border-glow shadow-royal flex flex-col justify-between reveal">
                     <div>
                         <div class="flex items-center justify-between border-b border-sand-light pb-4 mb-6">
                             <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl shadow-md">
+                                <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl shadow-md" aria-hidden="true">
                                     <i class="fa-solid fa-globe"></i>
                                 </div>
                                 <div>
@@ -266,95 +275,90 @@
                                     <div class="text-xs text-gold-imperial font-bold uppercase tracking-wider">Integrated Generation (698)</div>
                                 </div>
                             </div>
-                            <span class="px-3 py-1 rounded-full bg-choco-dark/10 text-choco-dark text-[10px] font-mono font-bold">Pusat PMDG</span>
+                            <span class="px-3 py-1 rounded-full bg-choco-dark/10 text-choco-dark text-[10px] font-mono font-bold">Pusat PMDG • Dummy</span>
                         </div>
 
-                        <!-- Visual Logo Representation Card -->
                         <div class="bg-choco-dark p-6 rounded-xl text-center mb-6 border border-gold-imperial/30 relative overflow-hidden">
-                            <div class="absolute -right-8 -top-8 w-24 h-24 bg-gold-imperial/10 rounded-full blur-xl"></div>
-                            <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-gold-imperial to-choco-medium p-1 mb-3 shadow-lg">
-                                <div class="w-full h-full rounded-full bg-choco-dark flex flex-col items-center justify-center text-gold-light p-2">
-                                    <i class="fa-solid fa-earth-asia text-3xl mb-1"></i>
-                                    <span class="font-cinzel font-black text-[10px] tracking-widest text-white">698</span>
-                                </div>
-                            </div>
+                            <div class="absolute -right-8 -top-8 w-24 h-24 bg-gold-imperial/10 rounded-full blur-xl" aria-hidden="true"></div>
+                            <img src="assets/logos/logo-general.png" alt="Placeholder dummy logo general Integrated 2024" width="200" height="200" loading="lazy" decoding="async" class="w-24 h-24 mx-auto rounded-full object-cover border-2 border-gold-imperial mb-3 shadow-lg">
                             <div class="font-cinzel font-bold text-sm text-gold-light">INTEGRATED GENERATION</div>
-                            <div class="text-[11px] text-cream-soft/70">The Centennial Hijri of Gontor (1345 H - 1445 H)</div>
+                            <div class="text-[11px] text-cream-soft/70">The Centennial Hijri of Gontor (1345 H - 1445 H) • Dummy</div>
                         </div>
 
-                        <!-- Logo Elements Breakdown -->
                         <div class="space-y-3.5 text-xs text-choco-medium mb-6">
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Bumi Bertuliskan Dua Kalimat Syahadat:</strong> Melambangkan visi alumni 2024 menyebarkan ajaran Islam dan kedamaian ke seluruh penjuru dunia.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Bumi & Syahadat (Dummy):</strong> Visi menyebarkan kedamaian ke seluruh penjuru dunia.</div>
                             </div>
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Bintang Segi Delapan (Octagram):</strong> Menyimbolkan kemuliaan, kejayaan peradaban Islam, dan kelengkapan integrasi ilmu & amal.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Octagram (Dummy):</strong> Kemuliaan dan integrasi ilmu & amal.</div>
                             </div>
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Pita Emas Centennial 100 Tahun:</strong> Menandakan angkatan yang lahir tepat pada momentum 1 Abad Hijriyah Pondok Modern Gontor.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Pita Centennial (Dummy):</strong> Momentum 1 Abad Hijriyah Gontor.</div>
                             </div>
                         </div>
                     </div>
 
-                    <button onclick="openLogoDetail('general')" class="w-full py-2.5 rounded-lg bg-choco-dark hover:bg-choco-medium text-gold-imperial text-xs font-bold uppercase tracking-wider transition-colors border border-gold-imperial/30 flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <span>Detail Filosofi Logo General</span>
-                    </button>
+                    <div class="flex flex-col sm:flex-row gap-2">
+                        <button type="button" data-logo-detail="general" class="flex-1 py-2.5 rounded-lg bg-choco-dark hover:bg-choco-medium text-gold-imperial text-xs font-bold uppercase tracking-wider transition-colors border border-gold-imperial/30 flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-gold-imperial">
+                            <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                            <span>Detail Filosofi</span>
+                        </button>
+                        <button type="button" data-dummy-download="Logo General 2024 (dummy)" class="flex-1 py-2.5 rounded-lg bg-cream-soft hover:bg-sand-light text-choco-dark text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-download" aria-hidden="true"></i><span>Unduh PNG (Dummy)</span>
+                        </button>
+                    </div>
                 </div>
 
-                <!-- Logo 2: Konsulat Pekalongan 2024 -->
-                <div class="bg-cream-bg rounded-2xl p-8 border border-sand-light gold-border-glow shadow-royal flex flex-col justify-between">
+                <div class="bg-cream-bg rounded-2xl p-8 border border-sand-light gold-border-glow shadow-royal flex flex-col justify-between reveal">
                     <div>
                         <div class="flex items-center justify-between border-b border-sand-light pb-4 mb-6">
                             <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-light flex items-center justify-center text-xl shadow-md">
-                                    <i class="fa-solid fa-shield-cat"></i>
+                                <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-light flex items-center justify-center text-xl shadow-md" aria-hidden="true">
+                                    <i class="fa-solid fa-shield-halved"></i>
                                 </div>
                                 <div>
                                     <h3 class="font-cinzel font-bold text-lg text-choco-dark">2. Logo Konsulat Pekalongan</h3>
                                     <div class="text-xs text-gold-imperial font-bold uppercase tracking-wider">Identitas Wilayah Plat G</div>
                                 </div>
                             </div>
-                            <span class="px-3 py-1 rounded-full bg-red-maroon/10 text-red-maroon text-[10px] font-mono font-bold">Konsulat 2024</span>
+                            <span class="px-3 py-1 rounded-full bg-red-maroon/10 text-red-maroon text-[10px] font-mono font-bold">Konsulat 2024 • Dummy</span>
                         </div>
 
-                        <!-- Visual Logo Representation Card -->
                         <div class="bg-choco-dark p-6 rounded-xl text-center mb-6 border border-gold-imperial/30 relative overflow-hidden">
-                            <div class="absolute -left-8 -top-8 w-24 h-24 bg-red-maroon/20 rounded-full blur-xl"></div>
-                            <div class="w-24 h-24 mx-auto rounded-full bg-gradient-to-br from-red-maroon via-gold-imperial to-choco-dark p-1 mb-3 shadow-lg">
-                                <div class="w-full h-full rounded-full bg-choco-dark flex flex-col items-center justify-center text-gold-light p-2">
-                                    <i class="fa-solid fa-gem text-3xl text-gold-imperial mb-1"></i>
-                                    <span class="font-cinzel font-black text-[10px] tracking-widest text-white">PLAT G</span>
-                                </div>
-                            </div>
+                            <div class="absolute -left-8 -top-8 w-24 h-24 bg-red-maroon/20 rounded-full blur-xl" aria-hidden="true"></div>
+                            <img src="assets/logos/logo-konsulat.png" alt="Placeholder dummy logo Konsulat Pekalongan Plat G" width="200" height="200" loading="lazy" decoding="async" class="w-24 h-24 mx-auto rounded-full object-cover border-2 border-gold-light mb-3 shadow-lg">
                             <div class="font-cinzel font-bold text-sm text-gold-light">KONSULAT PEKALONGAN 2024</div>
-                            <div class="text-[11px] text-cream-soft/70">Pekalongan • Batang • Pemalang • Tegal • Brebes</div>
+                            <div class="text-[11px] text-cream-soft/70">Pekalongan • Batang • Pemalang • Tegal • Brebes • Dummy</div>
                         </div>
 
-                        <!-- Logo Elements Breakdown -->
                         <div class="space-y-3.5 text-xs text-choco-medium mb-6">
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Canting & Motif Batik Pekalongan:</strong> Simbol keluhuran budaya lokal, ketelitian, keindahan, dan kebanggaan identitas Kota Batik.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Canting & Batik (Dummy):</strong> Ketelitian dan kebanggaan Kota Batik.</div>
                             </div>
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Perisai Lima Sudut Karesidenan:</strong> Mewakili kesatuan 5 daerah Plat G (Pekalongan, Batang, Pemalang, Tegal, Brebes) yang saling menopang.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Perisai 5 Sudut (Dummy):</strong> Kesatuan 5 daerah Plat G.</div>
                             </div>
                             <div class="flex items-start gap-2.5">
-                                <i class="fa-solid fa-check text-gold-imperial mt-0.5"></i>
-                                <div><strong class="text-choco-dark">Warna Coklat Tua, Emas & Red Crimson:</strong> Paduan kemewahan, keteguhan jiwa santri, dan keberanian berjuang di masyarakat.</div>
+                                <i class="fa-solid fa-check text-gold-imperial mt-0.5" aria-hidden="true"></i>
+                                <div><strong class="text-choco-dark">Warna Maroon-Emas (Dummy):</strong> Keteguhan dan keberanian santri.</div>
                             </div>
                         </div>
                     </div>
 
-                    <button onclick="openLogoDetail('konsulat')" class="w-full py-2.5 rounded-lg bg-red-maroon hover:bg-red-900 text-gold-light text-xs font-bold uppercase tracking-wider transition-colors border border-gold-light/30 flex items-center justify-center gap-2">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <span>Detail Filosofi Logo Konsulat</span>
-                    </button>
+                    <div class="flex flex-col sm:flex-row gap-2">
+                        <button type="button" data-logo-detail="konsulat" class="flex-1 py-2.5 rounded-lg bg-red-maroon hover:bg-red-900 text-gold-light text-xs font-bold uppercase tracking-wider transition-colors border border-gold-light/30 flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-gold-imperial">
+                            <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+                            <span>Detail Filosofi</span>
+                        </button>
+                        <button type="button" data-dummy-download="Logo Konsulat Plat G (dummy)" class="flex-1 py-2.5 rounded-lg bg-cream-soft hover:bg-sand-light text-choco-dark text-xs font-bold uppercase tracking-wider transition-colors flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-download" aria-hidden="true"></i><span>Unduh PNG (Dummy)</span>
+                        </button>
+                    </div>
                 </div>
 
             </div>
@@ -362,309 +366,382 @@
         </div>
     </section>
 
-    <section id="filosofi" class="py-20 relative bg-cream-bg border-b border-sand-light">
+    <!-- FILOSOFI -->
+    <section id="filosofi" class="py-20 relative bg-cream-bg border-b border-sand-light scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
+
+            <div class="text-center max-w-3xl mx-auto mb-16 reveal">
                 <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                     LANDASAN NILAI ALMAMATER
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                 </div>
                 <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark mb-4">
                     Pilar Kebanggaan Integrated 2024
                 </h2>
                 <p class="text-choco-medium text-sm sm:text-base leading-relaxed">
-                    Setiap alumni KMI 2024 dibekali dengan nilai keikhlasan, kesederhanaan, kemandirian, ukhuwah islamiyah, dan kebebasan berfikir yang diajarkan di Pondok Modern Darussalam Gontor.
+                    Nilai keikhlasan, kesederhanaan, kemandirian, ukhuwah islamiyah, dan kebebasan berfikir — teks deskripsi dummy.
                 </p>
             </div>
 
-            <!-- 4 Core Pillars Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-                
-                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal">
-                    <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md">
-                        <i class="fa-solid fa-heart-pulse"></i>
-                    </div>
+                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal reveal">
+                    <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md" aria-hidden="true"><i class="fa-solid fa-heart-pulse"></i></div>
                     <h3 class="font-cinzel font-bold text-lg text-choco-dark mb-2">Spiritual Utuh</h3>
-                    <p class="text-choco-medium text-xs leading-relaxed">
-                        Pijakan tauhid yang kokoh, nilai keikhlasan, serta kedalaman ibadah sebagai benteng utama di era modern.
-                    </p>
+                    <p class="text-choco-medium text-xs leading-relaxed">Dummy: tauhid kokoh dan keikhlasan sebagai benteng era modern.</p>
                 </div>
-
-                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal">
-                    <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md">
-                        <i class="fa-solid fa-brain"></i>
-                    </div>
+                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal reveal">
+                    <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md" aria-hidden="true"><i class="fa-solid fa-brain"></i></div>
                     <h3 class="font-cinzel font-bold text-lg text-choco-dark mb-2">Intelektual Beradab</h3>
-                    <p class="text-choco-medium text-xs leading-relaxed">
-                        Mengintegrasikan khazanah keislaman klasik dan ilmu pengetahuan modern secara kritis dan berwawasan luas.
-                    </p>
+                    <p class="text-choco-medium text-xs leading-relaxed">Dummy: integrasi khazanah klasik dan ilmu modern.</p>
                 </div>
-
-                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal">
-                    <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md">
-                        <i class="fa-solid fa-shield-halved"></i>
-                    </div>
+                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal reveal">
+                    <div class="w-12 h-12 rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
                     <h3 class="font-cinzel font-bold text-lg text-choco-dark mb-2">Integritas Tinggi</h3>
-                    <p class="text-choco-medium text-xs leading-relaxed">
-                        Mempunyai kewibawaan, kejujuran, dan keteladanan sikap di mana pun alumni ditempatkan berkiprah.
-                    </p>
+                    <p class="text-choco-medium text-xs leading-relaxed">Dummy: jujur dan teladan di mana pun berkiprah.</p>
                 </div>
-
-                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal">
-                    <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md">
-                        <i class="fa-solid fa-people-roof"></i>
-                    </div>
+                <div class="bg-cream-surface p-6 rounded-2xl border border-sand-light gold-border-glow shadow-royal reveal">
+                    <div class="w-12 h-12 rounded-xl bg-red-maroon text-gold-imperial flex items-center justify-center text-xl mb-4 shadow-md" aria-hidden="true"><i class="fa-solid fa-people-roof"></i></div>
                     <h3 class="font-cinzel font-bold text-lg text-choco-dark mb-2">Ukhuwah Plat G</h3>
-                    <p class="text-choco-medium text-xs leading-relaxed">
-                        Simpul kebersamaan alumni 2024 lintas Pekalongan, Batang, Pemalang, Tegal, dan Brebes.
-                    </p>
+                    <p class="text-choco-medium text-xs leading-relaxed">Dummy: simpul 5 daerah + perantauan.</p>
                 </div>
-
             </div>
 
-            <!-- Panca Jiwa Box -->
-            <div class="bg-choco-dark rounded-2xl p-8 border border-gold-imperial/40 text-cream-bg pattern-dark-grid shadow-deep-card">
+            <div class="bg-choco-dark rounded-2xl p-8 border border-gold-imperial/40 text-cream-bg pattern-dark-grid shadow-deep-card reveal">
                 <div class="text-center mb-8">
                     <span class="text-xs text-gold-imperial font-bold uppercase tracking-widest">PEDOMAN HIDUP SANTRI GONTOR</span>
                     <h3 class="font-cinzel font-bold text-2xl text-white mt-1">Panca Jiwa Pondok Modern</h3>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 text-center">
-                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20">
-                        <div class="font-cinzel font-bold text-gold-light text-sm mb-1">Keikhlasan</div>
-                        <div class="text-[11px] text-cream-soft/70">Berjuag lillahi ta'ala tanpa mengharap pamrih.</div>
-                    </div>
-                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20">
-                        <div class="font-cinzel font-bold text-gold-light text-sm mb-1">Kesederhanaan</div>
-                        <div class="text-[11px] text-cream-soft/70">Jiwa besar, bersahaja, dan penuh kesyukuran.</div>
-                    </div>
-                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20">
-                        <div class="font-cinzel font-bold text-gold-light text-sm mb-1">Berdikari</div>
-                        <div class="text-[11px] text-cream-soft/70">Mampu menolong diri sendiri & mandiri.</div>
-                    </div>
-                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20">
-                        <div class="font-cinzel font-bold text-gold-light text-sm mb-1">Ukhuwah</div>
-                        <div class="text-[11px] text-cream-soft/70">Persaudaraan islamiyah yang mengikat selamanya.</div>
-                    </div>
-                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20">
-                        <div class="font-cinzel font-bold text-gold-light text-sm mb-1">Kebebasan</div>
-                        <div class="text-[11px] text-cream-soft/70">Bebas berpikir & bertindak dalam koridor syariat.</div>
-                    </div>
+                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20"><div class="font-cinzel font-bold text-gold-light text-sm mb-1">Keikhlasan</div><div class="text-[11px] text-cream-soft/70">Berjuang lillahita'ala tanpa pamrih. (Dummy)</div></div>
+                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20"><div class="font-cinzel font-bold text-gold-light text-sm mb-1">Kesederhanaan</div><div class="text-[11px] text-cream-soft/70">Jiwa besar dan bersyukur. (Dummy)</div></div>
+                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20"><div class="font-cinzel font-bold text-gold-light text-sm mb-1">Berdikari</div><div class="text-[11px] text-cream-soft/70">Mandiri dan menolong diri. (Dummy)</div></div>
+                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20"><div class="font-cinzel font-bold text-gold-light text-sm mb-1">Ukhuwah</div><div class="text-[11px] text-cream-soft/70">Persaudaraan selamanya. (Dummy)</div></div>
+                    <div class="bg-cream-surface/5 p-4 rounded-xl border border-gold-imperial/20"><div class="font-cinzel font-bold text-gold-light text-sm mb-1">Kebebasan</div><div class="text-[11px] text-cream-soft/70">Bebas dalam koridor syariat. (Dummy)</div></div>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <section id="sebaran" class="py-20 relative bg-cream-surface">
+    <!-- SEBARAN -->
+    <section id="sebaran" class="py-20 relative bg-cream-surface scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-6 reveal">
                 <div>
                     <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
-                        <span class="h-0.5 w-6 bg-gold-imperial"></span>
-                        WILAYAH PLAT G
+                        <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                        WILAYAH PLAT G (DUMMY)
                     </div>
                     <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark">
-                        Sebaran Daerah Konsulat 2024
+                        Sebaran & Koordinator 2024
                     </h2>
                 </div>
                 <p class="text-choco-medium text-xs sm:text-sm max-w-md">
-                    Gunakan filter di bawah untuk mengeksplorasi wilayah kabupaten/kota di Eks-Karesidenan Pekalongan.
+                    Filter dummy + tombol WA dummy + tombol lihat anggota dummy. Total dummy konsisten 154.
                 </p>
             </div>
 
-            <!-- Region Filter Tabs -->
-            <div class="flex flex-wrap gap-2 mb-10 border-b border-sand-light pb-4" id="region-tabs">
-                <button data-filter="all" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-choco-dark text-gold-imperial border border-gold-imperial/40 shadow-md">Semua Wilayah</button>
-                <button data-filter="pekalongan" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Pekalongan</button>
-                <button data-filter="batang" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Batang</button>
-                <button data-filter="pemalang" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Pemalang</button>
-                <button data-filter="tegal" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Tegal</button>
-                <button data-filter="brebes" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Brebes</button>
+            <div class="flex flex-wrap gap-2 mb-10 border-b border-sand-light pb-4" id="region-tabs" role="tablist" aria-label="Filter wilayah dummy">
+                <button type="button" role="tab" aria-selected="true" data-filter="all" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-choco-dark text-gold-imperial border border-gold-imperial/40 shadow-md">Semua (154)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="pekalongan" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Pekalongan (35)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="batang" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Batang (22)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="pemalang" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Pemalang (28)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="tegal" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Tegal (32)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="brebes" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Brebes (25)</button>
+                <button type="button" role="tab" aria-selected="false" data-filter="perantauan" class="tab-btn px-5 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-cream-bg text-choco-dark hover:bg-cream-soft border border-sand-light transition-all">Perantauan (12)</button>
             </div>
 
-            <!-- Region Cards Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="region-cards-container">
-                
-                <!-- Pekalongan Card -->
-                <div class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300" data-region="pekalongan">
+
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="pekalongan">
                     <div class="relative h-44 overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Pekalongan" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Pekalongan'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md">
-                            <i class="fa-solid fa-shirt"></i> Pekalongan Batik
-                        </span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">35 ALUMNI</span>
+                        <img src="assets/images/wilayah/pekalongan.png" alt="Placeholder dummy Pekalongan" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-shirt" aria-hidden="true"></i> Pekalongan Batik</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">35 ALUMNI • DUMMY</span>
                     </div>
                     <div class="p-6">
                         <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Kota & Kab. Pekalongan</h3>
-                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Pusat Koordinasi Konsulat</div>
-                        <p class="text-choco-medium text-xs leading-relaxed mb-6">
-                            Sektor utama koordinasi kegiatan alumni 2024 mencakup Kota Pekalongan, Kajen, Kedungwuni, dan Wiradesa.
-                        </p>
-                        <div class="border-t border-sand-light pt-4 flex items-center justify-between text-xs text-choco-medium">
-                            <span><i class="fa-solid fa-user-shield text-gold-imperial mr-1"></i> Tim Korda</span>
-                            <span class="font-bold text-choco-dark">Ustadz Raziq & Tim</span>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Pusat Koordinasi (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: Kajen, Kedungwuni, Wiradesa. Deskripsi contoh koordinasi.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-pekalongan.png" alt="Foto dummy korda Pekalongan" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Ahmad Dummy-Roziq</div><div class="text-choco-medium">Korda Pekalongan (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000001?text=Halo%20Korda%20Pekalongan%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="pekalongan" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Batang Card -->
-                <div class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300" data-region="batang">
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="batang">
                     <div class="relative h-44 overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Batang" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Batang'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md">
-                            <i class="fa-solid fa-mountain"></i> Batang Pagilaran
-                        </span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">22 ALUMNI</span>
+                        <img src="assets/images/wilayah/batang.png" alt="Placeholder dummy Batang" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-mountain" aria-hidden="true"></i> Batang Pagilaran</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">22 ALUMNI • DUMMY</span>
                     </div>
                     <div class="p-6">
                         <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Kabupaten Batang</h3>
-                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Gerbang Timur Plat G</div>
-                        <p class="text-choco-medium text-xs leading-relaxed mb-6">
-                            Sektor timur alumni Integrated 2024 yang aktif mendukung jaringan pendidikan dan dakwah alumni.
-                        </p>
-                        <div class="border-t border-sand-light pt-4 flex items-center justify-between text-xs text-choco-medium">
-                            <span><i class="fa-solid fa-user-shield text-gold-imperial mr-1"></i> Tim Korda</span>
-                            <span class="font-bold text-choco-dark">Ustadz Hilmi & Tim</span>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Gerbang Timur (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: aktif di jaringan pendidikan dan dakwah contoh.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-batang.png" alt="Foto dummy korda Batang" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Bilal Dummy-Hilmi</div><div class="text-choco-medium">Korda Batang (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000002?text=Halo%20Korda%20Batang%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="batang" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Pemalang Card -->
-                <div class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300" data-region="pemalang">
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="pemalang">
                     <div class="relative h-44 overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=600&q=80" alt="Pemalang" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Pemalang'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md">
-                            <i class="fa-solid fa-tree"></i> Pemalang Ikhlas
-                        </span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">28 ALUMNI</span>
+                        <img src="assets/images/wilayah/pemalang.png" alt="Placeholder dummy Pemalang" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-tree" aria-hidden="true"></i> Pemalang Ikhlas</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">28 ALUMNI • DUMMY</span>
                     </div>
                     <div class="p-6">
                         <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Kabupaten Pemalang</h3>
-                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Poros Tengah Plat G</div>
-                        <p class="text-choco-medium text-xs leading-relaxed mb-6">
-                            Simpul penghubung tengah Karesidenan yang menggalang kebersamaan antar wilayah timur dan barat.
-                        </p>
-                        <div class="border-t border-sand-light pt-4 flex items-center justify-between text-xs text-choco-medium">
-                            <span><i class="fa-solid fa-user-shield text-gold-imperial mr-1"></i> Tim Korda</span>
-                            <span class="font-bold text-choco-dark">Ustadz Farhan & Tim</span>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Poros Tengah (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: penghubung timur-barat Karesidenan contoh.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-pemalang.png" alt="Foto dummy korda Pemalang" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Farhan Dummy-Fauzi</div><div class="text-choco-medium">Korda Pemalang (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000003?text=Halo%20Korda%20Pemalang%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="pemalang" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Tegal Card -->
-                <div class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300" data-region="tegal">
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="tegal">
                     <div class="relative h-44 overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80" alt="Tegal" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Tegal'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md">
-                            <i class="fa-solid fa-anchor"></i> Tegal Bahari
-                        </span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">32 ALUMNI</span>
+                        <img src="assets/images/wilayah/tegal.png" alt="Placeholder dummy Tegal" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-anchor" aria-hidden="true"></i> Tegal Bahari</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">32 ALUMNI • DUMMY</span>
                     </div>
                     <div class="p-6">
                         <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Kota & Kab. Tegal</h3>
-                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Slawi & Kota Bahari</div>
-                        <p class="text-choco-medium text-xs leading-relaxed mb-6">
-                            Basis alumni yang solid di Slawi, Adiwerna, dan Kota Tegal dengan berbagai program silaturahmi berkala.
-                        </p>
-                        <div class="border-t border-sand-light pt-4 flex items-center justify-between text-xs text-choco-medium">
-                            <span><i class="fa-solid fa-user-shield text-gold-imperial mr-1"></i> Tim Korda</span>
-                            <span class="font-bold text-choco-dark">Ustadz Nabil & Tim</span>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Slawi & Bahari (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: Slawi, Adiwerna, Kota Tegal contoh silaturahmi.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-tegal.png" alt="Foto dummy korda Tegal" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Nabil Dummy-Barokah</div><div class="text-choco-medium">Korda Tegal (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000004?text=Halo%20Korda%20Tegal%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="tegal" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
                         </div>
                     </div>
-                </div>
+                </article>
 
-                <!-- Brebes Card -->
-                <div class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 lg:col-span-1" data-region="brebes">
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="brebes">
                     <div class="relative h-44 overflow-hidden group">
-                        <img src="https://images.unsplash.com/photo-1595855759920-86582396756a?auto=format&fit=crop&w=600&q=80" alt="Brebes" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Brebes'">
-                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent"></div>
-                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md">
-                            <i class="fa-solid fa-egg"></i> Brebes Berhias
-                        </span>
-                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">25 ALUMNI</span>
+                        <img src="assets/images/wilayah/brebes.png" alt="Placeholder dummy Brebes" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-egg" aria-hidden="true"></i> Brebes Berhias</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">25 ALUMNI • DUMMY</span>
                     </div>
                     <div class="p-6">
                         <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Kabupaten Brebes</h3>
-                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Ujung Barat Karesidenan</div>
-                        <p class="text-choco-medium text-xs leading-relaxed mb-6">
-                            Mencakup wilayah Brebes Utara hingga Bumiayu Selatan dengan semangat perjuangan almamater yang menyatu.
-                        </p>
-                        <div class="border-t border-sand-light pt-4 flex items-center justify-between text-xs text-choco-medium">
-                            <span><i class="fa-solid fa-user-shield text-gold-imperial mr-1"></i> Tim Korda</span>
-                            <span class="font-bold text-choco-dark">Ustadz Wildan & Tim</span>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Ujung Barat (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: Brebes Utara hingga Bumiayu Selatan contoh.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-brebes.png" alt="Foto dummy korda Brebes" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Wildan Dummy-Salim</div><div class="text-choco-medium">Korda Brebes (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000005?text=Halo%20Korda%20Brebes%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="brebes" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
                         </div>
                     </div>
-                </div>
+                </article>
+
+                <article class="region-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden transition-all duration-300 reveal" data-region="perantauan">
+                    <div class="relative h-44 overflow-hidden group">
+                        <img src="assets/images/wilayah/perantauan.png" alt="Placeholder dummy perantauan" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-choco-dark/85 via-choco-dark/20 to-transparent" aria-hidden="true"></div>
+                        <span class="absolute bottom-3 left-3 px-2.5 py-1 rounded bg-cream-surface text-choco-dark font-bold text-[10px] uppercase tracking-wider flex items-center gap-1 shadow-md"><i class="fa-solid fa-plane-departure" aria-hidden="true"></i> Perantauan Nusantara</span>
+                        <span class="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-choco-dark/90 text-gold-imperial font-mono text-[10px] font-bold">12 ALUMNI • DUMMY</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-cinzel font-bold text-xl text-choco-dark mb-1">Perantauan / Luar Plat G</h3>
+                        <div class="text-gold-imperial text-xs font-bold uppercase tracking-wider mb-3">Jakarta • Jogja • Surabaya (Dummy)</div>
+                        <p class="text-choco-medium text-xs leading-relaxed mb-4">Dummy: penyeimbang grid + wadah alumni kuliah/merantau contoh.</p>
+                        <div class="flex items-center gap-3 mb-4">
+                            <img src="assets/images/korda/korda-perantauan.png" alt="Foto dummy korda perantauan" width="100" height="100" loading="lazy" decoding="async" class="w-10 h-10 rounded-full object-cover border border-gold-imperial">
+                            <div class="text-xs"><div class="font-bold text-choco-dark">Ust. Ridwan Dummy-Rantau</div><div class="text-choco-medium">Korda Perantauan (Contoh)</div></div>
+                        </div>
+                        <div class="border-t border-sand-light pt-4 flex gap-2">
+                            <a href="https://wa.me/6281200000006?text=Halo%20Korda%20Perantauan%20(dummy)" target="_blank" rel="noopener" class="flex-1 text-center py-2 rounded-lg bg-green-700 text-white text-[11px] font-bold uppercase hover:bg-green-800 transition-colors"><i class="fa-brands fa-whatsapp mr-1" aria-hidden="true"></i>WA Dummy</a>
+                            <button type="button" data-members="perantauan" class="flex-1 py-2 rounded-lg border border-sand-light bg-cream-surface text-choco-dark text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Lihat Anggota</button>
+                        </div>
+                    </div>
+                </article>
 
             </div>
+            <p id="region-empty" class="hidden text-center text-choco-medium text-sm mt-8">Tidak ada wilayah dummy yang cocok.</p>
 
         </div>
     </section>
 
-    <section id="galeri" class="py-20 relative bg-cream-bg border-t border-b border-sand-light">
+    <!-- AGENDA (BARU) -->
+    <section id="agenda" class="py-20 bg-cream-bg border-t border-b border-sand-light scroll-mt-20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="text-center max-w-3xl mx-auto mb-12">
+            <div class="text-center max-w-3xl mx-auto mb-12 reveal">
                 <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
-                    ALBUM DOKUMENTASI MARHALAH
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                    AGENDA & KEGIATAN (DUMMY)
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                </div>
+                <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark mb-4">Kalender Konsulat Dummy</h2>
+                <p class="text-choco-medium text-sm">Contoh 4 kegiatan untuk gambaran alur informasi. Tanggal & lokasi fiktif.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <article class="bg-cream-surface rounded-2xl border border-sand-light shadow-royal overflow-hidden gold-border-glow reveal">
+                    <div class="p-5 border-b border-sand-light flex items-center justify-between">
+                        <span class="text-[11px] font-bold bg-choco-dark text-gold-imperial px-2.5 py-1 rounded">12 JUL 2026</span>
+                        <span class="text-[10px] font-bold uppercase text-green-700 bg-green-100 px-2 py-1 rounded">Akan Datang</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-cinzel font-bold text-base text-choco-dark mb-1">Reuni Akbar Plat G</h3>
+                        <p class="text-[11px] text-gold-imperial font-bold uppercase mb-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>Aula Dummy Pekalongan</p>
+                        <p class="text-xs text-choco-medium leading-relaxed mb-4">Dummy: temu kangen 154 alumni + keluarga, pelantikan korda baru contoh.</p>
+                        <button type="button" data-dummy-download="Detail Reuni Akbar (dummy)" class="w-full py-2 rounded-lg border border-sand-light text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Detail Dummy</button>
+                    </div>
+                </article>
+                <article class="bg-cream-surface rounded-2xl border border-sand-light shadow-royal overflow-hidden gold-border-glow reveal">
+                    <div class="p-5 border-b border-sand-light flex items-center justify-between">
+                        <span class="text-[11px] font-bold bg-choco-dark text-gold-imperial px-2.5 py-1 rounded">28 MAR 2026</span>
+                        <span class="text-[10px] font-bold uppercase text-green-700 bg-green-100 px-2 py-1 rounded">Akan Datang</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-cinzel font-bold text-base text-choco-dark mb-1">Bukber & Santunan</h3>
+                        <p class="text-[11px] text-gold-imperial font-bold uppercase mb-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>Masjid Dummy Tegal</p>
+                        <p class="text-xs text-choco-medium leading-relaxed mb-4">Dummy: buka bersama + santunan 50 paket contoh.</p>
+                        <button type="button" data-dummy-download="Detail Bukber (dummy)" class="w-full py-2 rounded-lg border border-sand-light text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Detail Dummy</button>
+                    </div>
+                </article>
+                <article class="bg-cream-surface rounded-2xl border border-sand-light shadow-royal overflow-hidden gold-border-glow reveal">
+                    <div class="p-5 border-b border-sand-light flex items-center justify-between">
+                        <span class="text-[11px] font-bold bg-cream-soft text-choco-dark px-2.5 py-1 rounded">SETIAP BULAN</span>
+                        <span class="text-[10px] font-bold uppercase text-choco-medium bg-cream-soft px-2 py-1 rounded">Rutin</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-cinzel font-bold text-base text-choco-dark mb-1">Silaturahmi Keliling</h3>
+                        <p class="text-[11px] text-gold-imperial font-bold uppercase mb-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>Bergilir 5 Daerah</p>
+                        <p class="text-xs text-choco-medium leading-relaxed mb-4">Dummy: khataman + musyawarah bergilir contoh.</p>
+                        <button type="button" data-dummy-download="Jadwal keliling (dummy)" class="w-full py-2 rounded-lg border border-sand-light text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Detail Dummy</button>
+                    </div>
+                </article>
+                <article class="bg-cream-surface rounded-2xl border border-sand-light shadow-royal overflow-hidden gold-border-glow reveal">
+                    <div class="p-5 border-b border-sand-light flex items-center justify-between">
+                        <span class="text-[11px] font-bold bg-cream-soft text-choco-dark px-2.5 py-1 rounded">15 DES 2025</span>
+                        <span class="text-[10px] font-bold uppercase text-choco-medium bg-sand-light px-2 py-1 rounded">Selesai (Contoh)</span>
+                    </div>
+                    <div class="p-5">
+                        <h3 class="font-cinzel font-bold text-base text-choco-dark mb-1">Bakti Sosial Brebes</h3>
+                        <p class="text-[11px] text-gold-imperial font-bold uppercase mb-2"><i class="fa-solid fa-location-dot mr-1" aria-hidden="true"></i>Bumiayu Dummy</p>
+                        <p class="text-xs text-choco-medium leading-relaxed mb-4">Dummy: contoh dokumentasi yang sudah lewat.</p>
+                        <button type="button" data-dummy-download="Dokumentasi baksos (dummy)" class="w-full py-2 rounded-lg border border-sand-light text-[11px] font-bold uppercase hover:bg-cream-soft transition-colors">Detail Dummy</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERI -->
+    <section id="galeri" class="py-20 relative bg-cream-surface border-b border-sand-light scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center max-w-3xl mx-auto mb-8 reveal">
+                <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                    ALBUM DOKUMENTASI (DUMMY)
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                 </div>
                 <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark mb-4">
                     Memori Integrated Pekalongan
                 </h2>
                 <p class="text-choco-medium text-sm">
-                    Rekam jejak momen sujud syukur kelulusan, perfotoan marhalah, panggung gembira, dan silaturahmi alumni Plat G.
+                    6 placeholder dummy lokal-ready. Klik untuk lightbox. Nanti ganti `src` dengan foto asli.
                 </p>
             </div>
 
-            <!-- Gallery Cards Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                
-                <!-- Photo Card 1 -->
-                <div class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal" onclick="openLightbox('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80', 'Yudisium Kelulusan KMI 2024', 'Momen penerimaan predikat kelulusan Integrated Generation di Balai Pertemuan Pondok Modern Darussalam Gontor.')">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Yudisium KMI 2024" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90 group-hover:opacity-100" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Yudisium+698'">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-5">
-                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Kelulusan</span>
-                        <h4 class="font-cinzel font-bold text-white text-base">Yudisium KMI Integrated 2024</h4>
-                        <p class="text-cream-soft/80 text-xs mt-1">Momen sakral kelulusan generasi 100 tahun</p>
-                    </div>
-                </div>
+            <div class="flex flex-wrap justify-center gap-2 mb-10" role="tablist" aria-label="Filter galeri dummy">
+                <button type="button" data-gfilter="all" class="gfilter-btn px-5 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider bg-choco-dark text-gold-imperial">Semua</button>
+                <button type="button" data-gfilter="kelulusan" class="gfilter-btn px-5 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cream-bg border border-sand-light hover:bg-cream-soft">Kelulusan</button>
+                <button type="button" data-gfilter="perfotoan" class="gfilter-btn px-5 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cream-bg border border-sand-light hover:bg-cream-soft">Perfotoan</button>
+                <button type="button" data-gfilter="pentas" class="gfilter-btn px-5 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cream-bg border border-sand-light hover:bg-cream-soft">Pentas</button>
+                <button type="button" data-gfilter="sosial" class="gfilter-btn px-5 py-2 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cream-bg border border-sand-light hover:bg-cream-soft">Sosial</button>
+            </div>
 
-                <!-- Photo Card 2 -->
-                <div class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal" onclick="openLightbox('https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=80', 'Perfotoan Konsulat Pekalongan 2024', 'Perfotoan akbar siswa akhir KMI 2024 Konsulat Pekalongan bersama Bapak Pimpinan PMDG.')">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=600&q=80" alt="Perfotoan Konsulat Pekalongan" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90 group-hover:opacity-100" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Perfotoan+Plat+G'">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-5">
-                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Perfotoan</span>
-                        <h4 class="font-cinzel font-bold text-white text-base">Perfotoan Akbar Pekalongan</h4>
-                        <p class="text-cream-soft/80 text-xs mt-1">Di depan Menara Masjid Jami' Gontor</p>
-                    </div>
-                </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="gallery-grid">
 
-                <!-- Photo Card 3 -->
-                <div class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal" onclick="openLightbox('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=80', 'Panggung Gembira Integrated 698', 'Persembahan maha karya pentas seni Panggung Gembira 698 Integrated Generation.')">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=600&q=80" alt="Panggung Gembira 698" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-90 group-hover:opacity-100" onerror="this.src='https://placehold.co/600x400/2A1A10/C5A059?text=Panggung+Gembira'">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
-                    <div class="absolute bottom-0 left-0 right-0 p-5">
-                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Pentas Seni</span>
-                        <h4 class="font-cinzel font-bold text-white text-base">Panggung Gembira Integrated</h4>
-                        <p class="text-cream-soft/80 text-xs mt-1">Maha karya seni karya santri kelas enam</p>
-                    </div>
+                <button type="button" data-gcat="kelulusan" data-lightbox-src="assets/images/galeri/yudisium.png" data-lightbox-title="Yudisium KMI Integrated 2024 (Dummy)" data-lightbox-desc="Deskripsi dummy: momen sakral kelulusan generasi 100 tahun contoh." class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal text-left focus:outline-none focus:ring-2 focus:ring-gold-imperial reveal">
+                    <span class="block h-64 overflow-hidden"><img src="assets/images/galeri/yudisium.png" alt="Placeholder dummy Yudisium KMI 2024" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></span>
+                    <span class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80" aria-hidden="true"></span>
+                    <span class="absolute bottom-0 left-0 right-0 p-5 block">
+                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Kelulusan • Dummy</span>
+                        <span class="font-cinzel font-bold text-white text-base block">Yudisium KMI Integrated 2024</span>
+                        <span class="text-cream-soft/80 text-xs mt-1 block">Contoh caption dummy</span>
+                    </span>
+                </button>
+
+                <button type="button" data-gcat="perfotoan" data-lightbox-src="assets/images/galeri/perfotoan.png" data-lightbox-title="Perfotoan Konsulat Pekalongan 2024 (Dummy)" data-lightbox-desc="Deskripsi dummy: perfotoan akbar contoh di depan menara." class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal text-left focus:outline-none focus:ring-2 focus:ring-gold-imperial reveal">
+                    <span class="block h-64 overflow-hidden"><img src="assets/images/galeri/perfotoan.png" alt="Placeholder dummy perfotoan konsulat" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></span>
+                    <span class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80" aria-hidden="true"></span>
+                    <span class="absolute bottom-0 left-0 right-0 p-5 block">
+                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Perfotoan • Dummy</span>
+                        <span class="font-cinzel font-bold text-white text-base block">Perfotoan Akbar Pekalongan</span>
+                        <span class="text-cream-soft/80 text-xs mt-1 block">Contoh caption dummy</span>
+                    </span>
+                </button>
+
+                <button type="button" data-gcat="pentas" data-lightbox-src="assets/images/galeri/panggung.png" data-lightbox-title="Panggung Gembira 698 (Dummy)" data-lightbox-desc="Deskripsi dummy: maha karya seni contoh." class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal text-left focus:outline-none focus:ring-2 focus:ring-gold-imperial reveal">
+                    <span class="block h-64 overflow-hidden"><img src="assets/images/galeri/panggung.png" alt="Placeholder dummy Panggung Gembira" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></span>
+                    <span class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80" aria-hidden="true"></span>
+                    <span class="absolute bottom-0 left-0 right-0 p-5 block">
+                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Pentas Seni • Dummy</span>
+                        <span class="font-cinzel font-bold text-white text-base block">Panggung Gembira Integrated</span>
+                        <span class="text-cream-soft/80 text-xs mt-1 block">Contoh caption dummy</span>
+                    </span>
+                </button>
+
+                <button type="button" data-gcat="perfotoan" data-lightbox-src="assets/images/galeri/silaturahmi.png" data-lightbox-title="Silaturahmi Akbar Plat G (Dummy)" data-lightbox-desc="Deskripsi dummy: kumpul bulanan contoh." class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal text-left focus:outline-none focus:ring-2 focus:ring-gold-imperial reveal">
+                    <span class="block h-64 overflow-hidden"><img src="assets/images/galeri/silaturahmi.png" alt="Placeholder dummy silaturahmi" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></span>
+                    <span class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80" aria-hidden="true"></span>
+                    <span class="absolute bottom-0 left-0 right-0 p-5 block">
+                        <span class="inline-block px-2.5 py-0.5 rounded bg-cream-surface text-choco-dark font-bold text-[10px] uppercase mb-1">Perfotoan • Dummy</span>
+                        <span class="font-cinzel font-bold text-white text-base block">Silaturahmi Akbar Dummy</span>
+                        <span class="text-cream-soft/80 text-xs mt-1 block">Contoh di Balai Dummy Tegal</span>
+                    </span>
+                </button>
+
+                <button type="button" data-gcat="sosial" data-lightbox-src="assets/images/galeri/baksos.png" data-lightbox-title="Bakti Sosial Brebes (Dummy)" data-lightbox-desc="Deskripsi dummy: bakti sosial contoh 50 paket." class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-sand-light cursor-pointer shadow-royal text-left focus:outline-none focus:ring-2 focus:ring-gold-imperial reveal">
+                    <span class="block h-64 overflow-hidden"><img src="assets/images/galeri/baksos.png" alt="Placeholder dummy bakti sosial" width="600" height="400" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"></span>
+                    <span class="absolute inset-0 bg-gradient-to-t from-choco-dark via-choco-dark/30 to-transparent opacity-80" aria-hidden="true"></span>
+                    <span class="absolute bottom-0 left-0 right-0 p-5 block">
+                        <span class="inline-block px-2.5 py-0.5 rounded bg-gold-imperial text-choco-dark font-bold text-[10px] uppercase mb-1">Sosial • Dummy</span>
+                        <span class="font-cinzel font-bold text-white text-base block">Bakti Sosial Dummy</span>
+                        <span class="text-cream-soft/80 text-xs mt-1 block">Contoh caption dummy</span>
+                    </span>
+                </button>
+
+                <div data-gcat="sosial" class="gallery-item group relative overflow-hidden rounded-2xl bg-choco-dark border border-dashed border-gold-imperial/50 shadow-royal text-left reveal flex flex-col items-center justify-center p-8 min-h-[16rem] text-center">
+                    <i class="fa-brands fa-tiktok text-4xl text-gold-imperial mb-3" aria-hidden="true"></i>
+                    <h4 class="font-cinzel font-bold text-gold-light text-base mb-1">Slot Video TikTok (Dummy)</h4>
+                    <p class="text-cream-soft/70 text-xs mb-4">Ganti dengan embed asli <code>@integrated698.pkl_dummy</code> nanti.</p>
+                    <button type="button" data-dummy-download="Embed video TikTok dummy" class="px-5 py-2 rounded-lg gold-gradient-bg text-choco-dark text-[11px] font-bold uppercase">Pasang Embed Nanti</button>
                 </div>
 
             </div>
@@ -672,206 +749,195 @@
         </div>
     </section>
 
-    <section id="kontak" class="py-20 relative bg-choco-dark text-cream-bg pattern-dark-grid">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            
-            <div class="max-w-3xl mx-auto">
+    <!-- TESTIMONI (BARU) -->
+    <section id="testimoni" class="py-20 bg-cream-bg scroll-mt-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10 reveal">
                 <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
-                    MEDIA RESMI ANGKATAN
-                    <span class="h-0.5 w-6 bg-gold-imperial"></span>
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                    SUARA ALUMNI (DUMMY)
+                    <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                 </div>
-                <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-white mb-6">
-                    Ikuti & Pantau Akun Official Marhalah
-                </h2>
-                <p class="text-cream-soft/80 text-sm leading-relaxed mb-10">
-                    Saksikan dokumentasi video, kilas balik perjalanan santri, pengumuman agenda marhalah, serta konten kreatif Integrated Generation 2024 Konsulat Pekalongan di platform resmi Instagram dan TikTok.
-                </p>
-
-                <!-- Social Media Direct Link Cards -->
-                <div class="flex flex-col sm:flex-row justify-center items-center gap-5">
-                    <!-- Instagram Channel Button -->
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl gold-gradient-bg text-choco-dark font-bold text-xs tracking-wider uppercase shadow-gold-glow hover:scale-105 transition-all flex items-center justify-center gap-3">
-                        <i class="fa-brands fa-instagram text-2xl"></i>
-                        <div class="text-left">
-                            <div class="text-[9px] uppercase tracking-widest opacity-80">Official Instagram</div>
-                            <div class="text-sm font-extrabold">@integrated698.pkl</div>
-                        </div>
-                    </a>
-
-                    <!-- TikTok Channel Button -->
-                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-cream-surface/10 hover:bg-cream-surface/20 text-cream-bg font-bold text-xs tracking-wider uppercase border border-gold-imperial/40 hover:scale-105 transition-all flex items-center justify-center gap-3">
-                        <i class="fa-brands fa-tiktok text-2xl text-gold-imperial"></i>
-                        <div class="text-left">
-                            <div class="text-[9px] uppercase tracking-widest text-gold-light">Official TikTok</div>
-                            <div class="text-sm font-extrabold text-white">@integrated698.pkl</div>
-                        </div>
-                    </a>
-                </div>
+                <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-choco-dark">Kiprah Dummy Alumni</h2>
+                <p class="text-choco-medium text-sm mt-2">Geser untuk melihat contoh testimoni. Semua nama & kampus fiktif.</p>
             </div>
 
+            <div class="relative bg-cream-surface border border-sand-light rounded-2xl shadow-royal overflow-hidden reveal">
+                <div class="overflow-hidden">
+                    <div id="testi-track" class="flex">
+                        <figure class="w-full shrink-0 p-8 text-center">
+                            <img src="assets/images/korda/alumni-1.png" alt="Foto dummy alumni 1" width="100" height="100" loading="lazy" decoding="async" class="w-16 h-16 rounded-full mx-auto object-cover border-2 border-gold-imperial mb-4">
+                            <blockquote class="font-playfair italic text-choco-dark text-base leading-relaxed mb-3">“Dummy: Gontor mengajarkan saya mandiri. Sekarang lanjut di Dummy University sambil ngajar TPA.”</blockquote>
+                            <figcaption class="text-xs font-bold text-choco-dark">Dummy Alumni 1 — Pekalongan</figcaption>
+                            <figcaption class="text-[11px] text-choco-medium">Dummy University, Jurusan Dummy • 2024</figcaption>
+                        </figure>
+                        <figure class="w-full shrink-0 p-8 text-center">
+                            <img src="assets/images/korda/alumni-2.png" alt="Foto dummy alumni 2" width="100" height="100" loading="lazy" decoding="async" class="w-16 h-16 rounded-full mx-auto object-cover border-2 border-gold-imperial mb-4">
+                            <blockquote class="font-playfair italic text-choco-dark text-base leading-relaxed mb-3">“Dummy: Ukhuwah Plat G tidak putus walau merantau ke Surabaya. Grup selalu hidup.”</blockquote>
+                            <figcaption class="text-xs font-bold text-choco-dark">Dummy Alumni 2 — Tegal</figcaption>
+                            <figcaption class="text-[11px] text-choco-medium">Dummy Institute, Jurusan Dummy • 2024</figcaption>
+                        </figure>
+                        <figure class="w-full shrink-0 p-8 text-center">
+                            <img src="assets/images/korda/alumni-3.png" alt="Foto dummy alumni 3" width="100" height="100" loading="lazy" decoding="async" class="w-16 h-16 rounded-full mx-auto object-cover border-2 border-gold-imperial mb-4">
+                            <blockquote class="font-playfair italic text-choco-dark text-base leading-relaxed mb-3">“Dummy: Panca Jiwa jadi pegangan buka usaha batik kecil di Batang.”</blockquote>
+                            <figcaption class="text-xs font-bold text-choco-dark">Dummy Alumni 3 — Batang</figcaption>
+                            <figcaption class="text-[11px] text-choco-medium">Wirausaha Dummy Batik • 2024</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between border-t border-sand-light px-6 py-3">
+                    <button type="button" id="testi-prev" class="px-4 py-2 rounded-lg border border-sand-light text-xs font-bold uppercase hover:bg-cream-soft" aria-label="Testimoni sebelumnya"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i></button>
+                    <div id="testi-dots" class="text-[11px] font-mono font-bold text-choco-medium" aria-live="polite">1 / 3 • Dummy</div>
+                    <button type="button" id="testi-next" class="px-4 py-2 rounded-lg bg-choco-dark text-gold-imperial text-xs font-bold uppercase hover:bg-choco-medium" aria-label="Testimoni berikutnya"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Photo Lightbox Modal -->
-    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-choco-dark/95 backdrop-blur-md hidden flex items-center justify-center p-4">
-        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl hover:text-gold-imperial transition-colors" aria-label="Close Modal">
-            <i class="fa-solid fa-xmark"></i>
+    <!-- KONTAK / GABUNG -->
+    <section id="kontak" class="py-20 relative bg-choco-dark text-cream-bg pattern-dark-grid scroll-mt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+                <div class="text-center lg:text-left reveal">
+                    <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
+                        <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
+                        MEDIA RESMI & GABUNG (DUMMY)
+                    </div>
+                    <h2 class="font-cinzel font-bold text-3xl sm:text-4xl text-white mb-4">Ikuti & Gabung Dummy</h2>
+                    <p class="text-cream-soft/80 text-sm leading-relaxed mb-8">Semua tombol di bawah dummy dan aman diklik untuk preview. Ganti `href` dengan akun asli saat launching.</p>
+
+                    <div class="flex flex-col sm:flex-row lg:flex-col xl:flex-row justify-center lg:justify-start items-stretch gap-4 mb-8">
+                        <a href="https://instagram.com/integrated698.pkl_dummy" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-4 rounded-xl gold-gradient-bg text-choco-dark font-bold text-xs tracking-wider uppercase shadow-gold-glow hover:scale-[1.02] transition-all flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-instagram text-2xl" aria-hidden="true"></i>
+                            <span class="text-left"><span class="block text-[9px] uppercase tracking-widest opacity-80">Official Instagram (Dummy)</span><span class="block text-sm font-extrabold">@integrated698.pkl_dummy</span></span>
+                        </a>
+                        <a href="https://tiktok.com/@integrated698.pkl_dummy" target="_blank" rel="noopener noreferrer" class="flex-1 px-6 py-4 rounded-xl bg-cream-surface/10 hover:bg-cream-surface/20 text-cream-bg font-bold text-xs tracking-wider uppercase border border-gold-imperial/40 hover:scale-[1.02] transition-all flex items-center justify-center gap-3">
+                            <i class="fa-brands fa-tiktok text-2xl text-gold-imperial" aria-hidden="true"></i>
+                            <span class="text-left"><span class="block text-[9px] uppercase tracking-widest text-gold-light">Official TikTok (Dummy)</span><span class="block text-sm font-extrabold text-white">@integrated698.pkl_dummy</span></span>
+                        </a>
+                    </div>
+                    <a href="https://wa.me/6281200000000?text=Halo%20Admin%20Plat%20G%20saya%20mau%20gabung%20(dummy)" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-green-700 hover:bg-green-800 text-white text-xs font-bold uppercase tracking-wider transition-colors">
+                        <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i> Gabung Grup WA Dummy
+                    </a>
+                    <p class="text-[11px] text-cream-soft/60 mt-3">Dummy WA pusat: 0812-0000-0000 (contoh) • Email dummy: halo.platg.dummy@example.com</p>
+                </div>
+
+                <div class="bg-cream-surface text-choco-dark rounded-2xl p-6 sm:p-8 border border-gold-imperial/40 shadow-deep-card reveal">
+                    <h3 class="font-cinzel font-bold text-xl mb-1">Form Pendataan Dummy</h3>
+                    <p class="text-xs text-choco-medium mb-5">Front-end only untuk gambaran. Tidak mengirim data kemana pun.</p>
+                    <form id="dummy-form" class="space-y-4" novalidate>
+                        <div>
+                            <label for="f-nama" class="block text-[11px] font-bold uppercase tracking-wider mb-1">Nama Lengkap (Dummy)</label>
+                            <input id="f-nama" name="nama" type="text" placeholder="Contoh: Hamba Allah Dummy" required class="w-full px-4 py-2.5 rounded-lg border border-sand-light bg-cream-bg text-sm focus:outline-none focus:ring-2 focus:ring-gold-imperial" autocomplete="name">
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label for="f-daerah" class="block text-[11px] font-bold uppercase tracking-wider mb-1">Asal Daerah</label>
+                                <select id="f-daerah" name="daerah" class="w-full px-4 py-2.5 rounded-lg border border-sand-light bg-cream-bg text-sm focus:outline-none focus:ring-2 focus:ring-gold-imperial">
+                                    <option>Pekalongan</option><option>Batang</option><option>Pemalang</option><option>Tegal</option><option>Brebes</option><option>Perantauan</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="f-wa" class="block text-[11px] font-bold uppercase tracking-wider mb-1">No. WA (Dummy)</label>
+                                <input id="f-wa" name="wa" type="tel" inputmode="tel" placeholder="0812-0000-XXXX" class="w-full px-4 py-2.5 rounded-lg border border-sand-light bg-cream-bg text-sm focus:outline-none focus:ring-2 focus:ring-gold-imperial" autocomplete="tel">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="f-pesan" class="block text-[11px] font-bold uppercase tracking-wider mb-1">Pesan (Opsional)</label>
+                            <textarea id="f-pesan" name="pesan" rows="3" placeholder="Contoh: Saya angkatan 2024 Pekalongan, mau ikut reuni..." class="w-full px-4 py-2.5 rounded-lg border border-sand-light bg-cream-bg text-sm focus:outline-none focus:ring-2 focus:ring-gold-imperial"></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3 rounded-lg gold-gradient-bg text-choco-dark text-xs font-bold uppercase tracking-wider hover:brightness-110 transition-all">Kirim Data Dummy</button>
+                        <p class="text-[11px] text-choco-medium text-center">Dengan menekan tombol, kamu setuju ini hanya simulasi.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="fixed inset-0 z-[60] bg-choco-dark/95 backdrop-blur-md hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+        <button type="button" data-close-lightbox class="absolute top-6 right-6 text-white text-3xl hover:text-gold-imperial transition-colors" aria-label="Tutup pratinjau gambar">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
         </button>
         <div class="max-w-4xl w-full bg-cream-surface rounded-2xl overflow-hidden border border-gold-imperial/40 shadow-2xl">
             <div class="relative max-h-[70vh] bg-black overflow-hidden">
-                <img id="lightbox-img" src="" alt="Lightbox Zoom" class="w-full h-full object-contain mx-auto">
+                <img id="lightbox-img" src="" alt="Pratinjau dummy galeri" class="w-full h-full object-contain mx-auto">
             </div>
             <div class="p-6 bg-choco-dark text-cream-bg">
                 <h3 id="lightbox-title" class="font-cinzel font-bold text-xl text-gold-imperial mb-1"></h3>
                 <p id="lightbox-desc" class="text-cream-soft/80 text-xs leading-relaxed"></p>
+                <p class="text-[10px] text-cream-soft/50 mt-2 uppercase tracking-widest">Dummy preview — tekan ESC untuk tutup</p>
             </div>
         </div>
     </div>
 
-    <!-- Dual Logo Detail Modal -->
-    <div id="logo-modal" class="fixed inset-0 z-50 bg-choco-dark/95 backdrop-blur-md hidden flex items-center justify-center p-4">
-        <button onclick="closeLogoModal()" class="absolute top-6 right-6 text-white text-3xl hover:text-gold-imperial transition-colors" aria-label="Close Logo Modal">
-            <i class="fa-solid fa-xmark"></i>
+    <!-- Logo Detail Modal -->
+    <div id="logo-modal" class="fixed inset-0 z-[60] bg-choco-dark/95 backdrop-blur-md hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="logo-modal-title" aria-hidden="true">
+        <button type="button" data-close-logo class="absolute top-6 right-6 text-white text-3xl hover:text-gold-imperial transition-colors" aria-label="Tutup detail logo">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
         </button>
         <div class="max-w-2xl w-full bg-cream-surface rounded-2xl p-6 sm:p-8 border border-gold-imperial/50 shadow-2xl text-choco-dark relative overflow-y-auto max-h-[90vh]">
-            <div id="logo-modal-content">
-                <!-- Injected via JavaScript -->
-            </div>
+            <div id="logo-modal-content"></div>
         </div>
     </div>
 
-    <footer class="bg-choco-dark text-cream-soft border-t border-gold-imperial/30 py-8 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between text-xs text-cream-soft/60 gap-4">
-            <div>
-                <span class="font-cinzel font-bold text-white text-sm block sm:inline mr-2">INTEGRATED GENERATION 698</span>
-                <span>• Alumni Gontor 2024 Konsulat Pekalongan (Plat G)</span>
+    <!-- Anggota Modal (dummy) -->
+    <div id="members-modal" class="fixed inset-0 z-[60] bg-choco-dark/95 backdrop-blur-md hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="members-title" aria-hidden="true">
+        <button type="button" data-close-members class="absolute top-6 right-6 text-white text-3xl hover:text-gold-imperial transition-colors" aria-label="Tutup daftar anggota dummy">
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <div class="max-w-lg w-full bg-cream-surface rounded-2xl p-6 sm:p-8 border border-gold-imperial/50 shadow-2xl text-choco-dark">
+            <span class="text-[10px] font-bold uppercase tracking-widest bg-choco-dark text-gold-imperial px-2 py-1 rounded">Dummy Preview</span>
+            <h3 id="members-title" class="font-cinzel font-bold text-xl mt-2 mb-1">Anggota Dummy</h3>
+            <p id="members-desc" class="text-xs text-choco-medium mb-4">Contoh 5 nama fiktif. Ganti dengan database real nanti.</p>
+            <ul id="members-list" class="space-y-2 text-sm"></ul>
+        </div>
+    </div>
+
+    <footer class="bg-choco-dark text-cream-soft border-t border-gold-imperial/30 py-10 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-sm">
+                <div>
+                    <div class="font-cinzel font-bold text-white text-base mb-2">INTEGRATED 698 • PLAT G <span class="text-[10px] bg-gold-imperial text-choco-dark px-2 py-0.5 rounded ml-1">DUMMY</span></div>
+                    <p class="text-xs text-cream-soft/70 leading-relaxed">Preview dummy profil alumni Gontor 2024 Konsulat Pekalongan. Pekalongan • Batang • Pemalang • Tegal • Brebes • Perantauan.</p>
+                </div>
+                <nav aria-label="Navigasi footer">
+                    <div class="font-bold text-gold-light text-xs uppercase tracking-widest mb-3">Jelajah Dummy</div>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#tentang" class="hover:text-gold-light">Tentang (Dummy)</a></li>
+                        <li><a href="#agenda" class="hover:text-gold-light">Agenda (Dummy)</a></li>
+                        <li><a href="#galeri" class="hover:text-gold-light">Galeri (Dummy)</a></li>
+                        <li><a href="https://www.gontor.ac.id/" target="_blank" rel="noopener" class="hover:text-gold-light">PMDG Official (Real Link Contoh)</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="font-bold text-gold-light text-xs uppercase tracking-widest mb-3">Kontak Dummy</div>
+                    <ul class="space-y-2 text-xs text-cream-soft/80">
+                        <li>WA: 0812-0000-0000 (contoh)</li>
+                        <li>Email: halo.platg.dummy@example.com</li>
+                        <li>IG/TikTok: @integrated698.pkl_dummy</li>
+                    </ul>
+                    <div class="flex items-center gap-4 text-gold-imperial text-lg mt-3">
+                        <a href="https://instagram.com/integrated698.pkl_dummy" target="_blank" rel="noopener" aria-label="Instagram dummy" class="hover:text-gold-light transition-colors"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://tiktok.com/@integrated698.pkl_dummy" target="_blank" rel="noopener" aria-label="TikTok dummy" class="hover:text-gold-light transition-colors"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+                        <a href="https://wa.me/6281200000000" target="_blank" rel="noopener" aria-label="WhatsApp dummy" class="hover:text-gold-light transition-colors"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="flex items-center gap-4 text-gold-imperial text-lg">
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram Page" class="hover:text-gold-light transition-colors"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://tiktok.com" target="_blank" aria-label="TikTok Page" class="hover:text-gold-light transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+            <div class="text-center sm:text-left flex flex-col sm:flex-row items-center justify-between text-xs text-cream-soft/60 gap-2 border-t border-gold-imperial/20 pt-6">
+                <div>© <span id="year">2026</span> Integrated Generation 698 Plat G (Dummy Preview) • Semua data fiktif</div>
+                <div>Dibuat untuk gambaran • Ganti ke data real saat launching</div>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Mobile Drawer Toggle
-        const mobileToggle = document.getElementById('mobile-toggle');
-        const mobileDrawer = document.getElementById('mobile-drawer');
-        const menuIcon = document.getElementById('menu-icon');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
+    <!-- Back to top + Toast -->
+    <button type="button" id="to-top" class="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full gold-gradient-bg text-choco-dark shadow-gold-glow hidden items-center justify-center hover:brightness-110" aria-label="Kembali ke atas">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[70] bg-choco-dark text-gold-light text-xs font-bold px-5 py-3 rounded-xl border border-gold-imperial/40 shadow-deep-card hidden" role="status" aria-live="polite"></div>
 
-        mobileToggle.addEventListener('click', () => {
-            mobileDrawer.classList.toggle('hidden');
-            if (mobileDrawer.classList.contains('hidden')) {
-                menuIcon.className = 'fa-solid fa-bars-staggered';
-            } else {
-                menuIcon.className = 'fa-solid fa-xmark';
-            }
-        });
-
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                mobileDrawer.classList.add('hidden');
-                menuIcon.className = 'fa-solid fa-bars-staggered';
-            });
-        });
-
-        // Region Filtering Logic
-        const tabBtns = document.querySelectorAll('.tab-btn');
-        const regionCards = document.querySelectorAll('.region-item');
-
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                tabBtns.forEach(b => {
-                    b.classList.remove('bg-choco-dark', 'text-gold-imperial', 'border-gold-imperial/40', 'shadow-md');
-                    b.classList.add('bg-cream-bg', 'text-choco-dark', 'hover:bg-cream-soft', 'border-sand-light');
-                });
-
-                btn.classList.add('bg-choco-dark', 'text-gold-imperial', 'border-gold-imperial/40', 'shadow-md');
-                btn.classList.remove('bg-cream-bg', 'text-choco-dark', 'hover:bg-cream-soft', 'border-sand-light');
-
-                const filter = btn.getAttribute('data-filter');
-
-                regionCards.forEach(card => {
-                    const region = card.getAttribute('data-region');
-                    if (filter === 'all' || region === filter) {
-                        card.style.display = 'block';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
-            });
-        });
-
-        // Lightbox Functions
-        function openLightbox(imgSrc, title, desc) {
-            document.getElementById('lightbox-img').src = imgSrc;
-            document.getElementById('lightbox-title').textContent = title;
-            document.getElementById('lightbox-desc').textContent = desc;
-            document.getElementById('lightbox-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeLightbox() {
-            document.getElementById('lightbox-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
-        }
-
-        document.getElementById('lightbox-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'lightbox-modal') closeLightbox();
-        });
-
-        // Logo Detail Modal Content & Handlers
-        function openLogoDetail(type) {
-            const container = document.getElementById('logo-modal-content');
-            if (type === 'general') {
-                container.innerHTML = `
-                    <div class="text-center mb-6">
-                        <div class="w-16 h-16 mx-auto rounded-xl bg-choco-dark text-gold-imperial flex items-center justify-center text-3xl mb-3 shadow-lg">
-                            <i class="fa-solid fa-earth-asia"></i>
-                        </div>
-                        <span class="px-2.5 py-0.5 rounded bg-choco-dark text-gold-imperial font-mono text-[10px] font-bold">KODE MARHALAH 698</span>
-                        <h3 class="font-cinzel font-bold text-2xl text-choco-dark mt-2">Logo General Integrated 2024</h3>
-                        <p class="text-xs text-choco-medium">The Centennial Hijri of Gontor (1345 H – 1445 H / 1926 M – 2024 M)</p>
-                    </div>
-                    <div class="space-y-4 text-xs text-choco-medium leading-relaxed border-t border-sand-light pt-4">
-                        <p><strong class="text-choco-dark font-bold">1. Globe & Dua Kalimat Syahadat:</strong> Menegaskan komitmen alumni KMI 2024 untuk memancarkan nilai keislaman, keikhlasan, dan ilmu ke seluruh penjuru benua.</p>
-                        <p><strong class="text-choco-dark font-bold">2. Octagram (Bintang Segi 8):</strong> Menggambarkan nilai peradaban Islam yang luhur, simetri kepribadian yang utuh (Spiritual, Intelektual, Akhlak, Kepemimpinan).</p>
-                        <p><strong class="text-choco-dark font-bold">3. Pita Centennial 100 Tahun Hijriyah:</strong> Menandakan hak istimewa marhalah 698 sebagai angkatan penutup abad pertama dan pembuka abad kedua Pondok Modern Darussalam Gontor.</p>
-                        <p><strong class="text-choco-dark font-bold">4. Warna Emas & Coklat Tua:</strong> Melambangkan kemuliaan, kejujuran, dan kehangatan persaudaraan almamater yang abadi.</p>
-                    </div>
-                `;
-            } else {
-                container.innerHTML = `
-                    <div class="text-center mb-6">
-                        <div class="w-16 h-16 mx-auto rounded-xl bg-red-maroon text-gold-light flex items-center justify-center text-3xl mb-3 shadow-lg">
-                            <i class="fa-solid fa-shield-cat"></i>
-                        </div>
-                        <span class="px-2.5 py-0.5 rounded bg-red-maroon text-gold-light font-mono text-[10px] font-bold">KONSULAT PLAT G</span>
-                        <h3 class="font-cinzel font-bold text-2xl text-choco-dark mt-2">Logo Konsulat Pekalongan 2024</h3>
-                        <p class="text-xs text-choco-medium">Identitas Eks-Karesidenan Pekalongan (Pekalongan, Batang, Pemalang, Tegal, Brebes)</p>
-                    </div>
-                    <div class="space-y-4 text-xs text-choco-medium leading-relaxed border-t border-sand-light pt-4">
-                        <p><strong class="text-choco-dark font-bold">1. Motif Canting & Batik Pekalongan:</strong> Menjadi ikon kebanggaan warisan kebudayaan lokal daerah Plat G yang penuh keindahan, kerapian, dan keanggunan.</p>
-                        <p><strong class="text-choco-dark font-bold">2. Perisai Lima Penjuru:</strong> Menghubungkan 5 wilayah konsulat (Pekalongan, Batang, Pemalang, Tegal, Brebes) dalam satu naungan ukhuwah Gontoriyah yang kokoh.</p>
-                        <p><strong class="text-choco-dark font-bold">3. Menara Masjid Jami':</strong> Menandakan pegangan tauhid dan syiar Islam yang senantiasa dijunjung tinggi oleh para alumni Plat G di mana pun berada.</p>
-                        <p><strong class="text-choco-dark font-bold">4. Paduan Coklat Espresso & Red Maroon:</strong> Menggambarkan kombinasi wibawa, ketenangan rasa, dan keberanian alumni dalam menghadapi tantangan zaman.</p>
-                    </div>
-                `;
-            }
-            document.getElementById('logo-modal').classList.remove('hidden');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function closeLogoModal() {
-            document.getElementById('logo-modal').classList.add('hidden');
-            document.body.style.overflow = 'auto';
-        }
-
-        document.getElementById('logo-modal').addEventListener('click', (e) => {
-            if (e.target.id === 'logo-modal') closeLogoModal();
-        });
-    </script>
+    <script src="js/app.js" defer></script>
 </body>
 </html>
