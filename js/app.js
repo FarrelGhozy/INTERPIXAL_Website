@@ -322,6 +322,30 @@
                 </a>
             </div>`;
         }
+        function homeLeaderCard(p, index){
+            return `
+            <article class="leader-card reveal">
+                <div class="leader-photo">
+                    <img src="${p.foto}" alt="Foto ${p.nama}" width="400" height="400" loading="lazy" decoding="async">
+                    <span class="leader-number">0${index + 1}</span>
+                    <a href="${igUrl(p.ig)}" target="_blank" rel="noopener" class="leader-social" aria-label="Instagram ${p.nama}"><i data-lucide="instagram" aria-hidden="true"></i></a>
+                </div>
+                <div class="leader-info">
+                    <span class="leader-role">${p.jabatanLabel}</span>
+                    <h4>${p.nama}</h4>
+                    <p>“${p.quote}”</p>
+                    <div class="leader-meta"><span><i data-lucide="map-pin" aria-hidden="true"></i>${p.daerahLabel}</span><span>698</span></div>
+                </div>
+            </article>`;
+        }
+        function coreMemberCard(p){
+            return `
+            <article class="core-member">
+                <img src="${p.foto}" alt="Foto ${p.nama}" width="200" height="200" loading="lazy" decoding="async">
+                <div><strong>${p.nama}</strong><span>${p.jabatanLabel}</span><small><i data-lucide="map-pin" aria-hidden="true"></i>${p.daerahLabel}</small></div>
+                <a href="${igUrl(p.ig)}" target="_blank" rel="noopener" aria-label="Instagram ${p.nama}"><i data-lucide="instagram" aria-hidden="true"></i></a>
+            </article>`;
+        }
         function pengurusCard(p){
             return `
             <article class="pengurus-item bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal overflow-hidden flex flex-col" data-jabatan="${p.jabatan}" data-daerah="${p.daerah}" data-nama="${p.nama.toLowerCase()}">
@@ -344,7 +368,7 @@
         // Teaser di index.html (#pimpinan-grid)
         const pimpinanGrid = $('#pimpinan-grid');
         if(pimpinanGrid && window.PIMPINAN){
-            pimpinanGrid.innerHTML = window.PIMPINAN.map(p => pimpinanCard(p, false)).join('');
+            pimpinanGrid.innerHTML = window.PIMPINAN.map(homeLeaderCard).join('');
             $$('.reveal', pimpinanGrid).forEach(el=> io.observe(el));
             refreshIcons();
         }
@@ -364,7 +388,7 @@
             ];
             intiMap.forEach(([sel, jab]) => {
                 const el = $(sel);
-                if(el) el.innerHTML = window.PENGURUS.filter(p => p.jabatan === jab).map(pengurusCard).join('');
+                if(el) el.innerHTML = window.PENGURUS.filter(p => p.jabatan === jab).map(coreMemberCard).join('');
             });
             refreshIcons();
         }

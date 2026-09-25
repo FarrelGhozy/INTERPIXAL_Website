@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="bg-cream-bg text-choco-dark font-sans antialiased selection:bg-gold-imperial selection:text-white pattern-cream-grid min-h-screen">
+<body class="page-pengurus bg-cream-bg text-choco-dark font-sans antialiased selection:bg-gold-imperial selection:text-white pattern-cream-grid min-h-screen">
 
     <a href="#main" class="skip-link">Lewati ke konten utama</a>
 
@@ -59,12 +59,15 @@
 
 <main id="main">
     <!-- HERO -->
-    <section class="relative py-14 overflow-hidden dark-choco-gradient pattern-dark-grid text-cream-bg">
+    <section class="pengurus-hero relative py-16 lg:py-20 overflow-hidden dark-choco-gradient pattern-dark-grid text-cream-bg">
+        <div class="hero-orbit hero-orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit-two" aria-hidden="true"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
             <p class="text-[11px] text-cream-soft/60 mb-2"><a href="index.html" class="hover:text-gold-light">Beranda</a> <span aria-hidden="true">/</span> <span class="text-gold-light">Pengurus</span></p>
-            <h1 class="font-cinzel font-bold text-3xl sm:text-4xl text-white mb-3">Struktur <span class="gold-gradient-text font-black">Pengurus</span> Plat G</h1>
-            <p class="text-cream-soft/80 text-sm max-w-2xl mx-auto">Ketua & Wakil sebagai display utama, didukung sekretaris, bendahara, media center, dan PJ setiap daerah. Klik ikon Instagram untuk kontak langsung.</p>
-            <div class="flex flex-wrap justify-center gap-4 mt-6 text-center">
+            <div class="inline-flex items-center gap-2 text-gold-light text-[10px] font-bold uppercase tracking-[0.2em] mb-4"><span class="w-8 h-px bg-gold-imperial"></span>Di balik setiap gerakan<span class="w-8 h-px bg-gold-imperial"></span></div>
+            <h1 class="font-cinzel font-bold text-4xl sm:text-5xl lg:text-6xl text-white mb-4 tracking-tight">Struktur <span class="gold-gradient-text font-black">Pengurus</span></h1>
+            <p class="text-cream-soft/70 text-sm sm:text-base leading-7 max-w-2xl mx-auto">Satu tim, satu ritme. Kenali orang-orang yang merawat komunikasi, menggerakkan program, dan menghubungkan setiap wilayah Plat G.</p>
+            <div class="pengurus-stats flex flex-wrap justify-center gap-3 mt-8 text-center">
                 <div class="px-5 py-3 rounded-xl bg-cream-surface/10 border border-gold-imperial/30"><div class="font-cinzel font-extrabold text-xl text-gold-imperial">19</div><div class="text-[10px] uppercase font-bold text-cream-soft/70">Pengurus Aktif</div></div>
                 <div class="px-5 py-3 rounded-xl bg-cream-surface/10 border border-gold-imperial/30"><div class="font-cinzel font-extrabold text-xl text-gold-imperial">4</div><div class="text-[10px] uppercase font-bold text-cream-soft/70">Divisi Inti</div></div>
                 <div class="px-5 py-3 rounded-xl bg-cream-surface/10 border border-gold-imperial/30"><div class="font-cinzel font-extrabold text-xl text-gold-imperial">5</div><div class="text-[10px] uppercase font-bold text-cream-soft/70">Daerah PJ</div></div>
@@ -75,13 +78,14 @@
     <!-- DISPLAY UTAMA -->
     <section id="pimpinan" class="py-16 bg-cream-surface border-b border-sand-light scroll-mt-20">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-8">
+            <div class="text-center mb-10">
                 <div class="inline-flex items-center gap-2 text-gold-imperial font-bold text-xs uppercase tracking-widest mb-3">
                     <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                     Display Utama
                     <span class="h-0.5 w-6 bg-gold-imperial" aria-hidden="true"></span>
                 </div>
-                <h2 class="font-cinzel font-bold text-2xl sm:text-3xl text-choco-dark">Ketua & Wakil Ketua Umum</h2>
+                <h2 class="font-cinzel font-bold text-2xl sm:text-4xl text-choco-dark">Ketua & Wakil Ketua Umum</h2>
+                <p class="text-sm text-choco-medium mt-3">Arah yang jelas dimulai dari kepemimpinan yang saling melengkapi.</p>
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6" id="pimpinan-featured">
                 <div class="bg-cream-bg rounded-2xl border border-sand-light gold-border-glow shadow-royal p-6 text-center flex flex-col items-center">
@@ -115,7 +119,7 @@
                 <p class="text-choco-medium text-sm">Setiap kartu memuat foto, nama, asal daerah, bagian kepengurusan, dan Instagram untuk kontak.</p>
             </div>
 
-            <div class="bg-cream-surface border border-sand-light rounded-2xl p-4 sm:p-5 shadow-royal mb-6">
+            <div class="pengurus-filter bg-cream-surface border border-sand-light rounded-2xl p-4 sm:p-5 shadow-royal mb-8">
                 <div class="flex flex-wrap gap-2 mb-4" role="tablist" aria-label="Filter bagian kepengurusan">
                     <button type="button" data-pjabatan="all" aria-selected="true" class="px-4 py-2 rounded-lg text-[11px] font-bold uppercase tracking-wider border transition-all">Semua (17)</button>
                     <button type="button" data-pjabatan="sekretaris" aria-selected="false" class="px-4 py-2 rounded-lg text-[11px] font-bold uppercase tracking-wider border transition-all">Sekretaris (2)</button>
